@@ -1,0 +1,472 @@
+filename,orig_index,character,main_character,base_label,modifier,label
+000.txt,47932,Hamas,True,belligerent,ruthless,Ruthless belligerent
+000.txt,47932,Israel,True,aggressor,unrelenting,Unrelenting aggressor
+000.txt,47932,Palestinian prisoners,False,bargaining chip,vulnerable,Vulnerable bargaining chip
+000.txt,47932,Qatari mediators,False,peacemaker,neutral,Neutral peacemaker
+001.txt,44666,Israel,True,aggressor,military,Military aggressor
+001.txt,44666,South Africa,True,champion,pro-palestinian,Pro-palestinian champion
+001.txt,44666,African National Congress,False,supporter,ruling,Ruling supporter
+001.txt,44666,Economic Freedom Fighters,False,catalyst,left-wing,Left-wing catalyst
+002.txt,45641,Geert Wilders,True,nationalist,right-wing,Right-wing nationalist
+002.txt,45641,Pieter Omtzigt,True,pragmatist,centrist,Centrist pragmatist
+002.txt,45641,Dilan Yeşilgöz-Zegerius,False,symbol,immigrant,Immigrant symbol
+002.txt,45641,Frans Timmermans,False,idealist,progressive,Progressive idealist
+003.txt,1057,Aleksandar Vucic,True,embattled leader,defensive,Defensive embattled leader
+003.txt,1057,Serbian Progressive Party,True,entrenched power,authoritarian,Authoritarian entrenched power
+003.txt,1057,European Union,False,gatekeeper,demanding,Demanding gatekeeper
+003.txt,1057,Ursula von der Leyen,False,arbiter,stern,Stern arbiter
+004.txt,26117,apna.co,True,facilitator,career growth,Career growth facilitator
+004.txt,26117,iStock,True,platform,job search,Job search platform
+004.txt,26117,Amazon,False,employer,multinational,Multinational employer
+004.txt,26117,Flipkart,False,employer,multinational,Multinational employer
+005.txt,15453,Bangladesh,True,underperformer,inconsistent,Inconsistent underperformer
+005.txt,15453,Sri Lanka,True,underdog,resilient,Resilient underdog
+005.txt,15453,Kusal Mendis,False,leader,struggling,Struggling leader
+005.txt,15453,Shakib Al Hasan,False,veteran,frustrated,Frustrated veteran
+006.txt,42261,Anna Brandenberger,True,beneficiary,primary,Primary beneficiary
+006.txt,42261,Taylor Brandenberger,True,supporter,emotional,Emotional supporter
+006.txt,42261,Ben Cole,False,problem solver,adaptive,Adaptive problem solver
+006.txt,42261,Stephen Wendell,False,facilitator,business,Business facilitator
+007.txt,46428,George Weah,True,disappointment,national,National disappointment
+007.txt,46428,Joseph Boakai,True,alternative,presidential,Presidential alternative
+007.txt,46428,Anderson Miamen,False,watchdog,anti-corruption,Anti-corruption watchdog
+007.txt,46428,Nathaniel McGill,False,offender,corrupt,Corrupt offender
+008.txt,16079,Kemal Kilicdaroglu,True,vestige,stubborn,Stubborn vestige
+008.txt,16079,Ozgur Ozel,True,reformer,ambitious,Ambitious reformer
+008.txt,16079,Ekrem Imamoglu,False,catalyst,influential,Influential catalyst
+008.txt,16079,Tayyip Erdogan,False,obstacle,entrenched,Entrenched obstacle
+009.txt,4646,Russia,True,aggressor,nuclear,Nuclear aggressor
+009.txt,4646,Vladimir Putin,True,instigator,militaristic,Militaristic instigator
+009.txt,4646,Sergei Shoigu,False,enforcer,militaristic,Militaristic enforcer
+009.txt,4646,United States,False,counterbalance,global,Global counterbalance
+010.txt,33167,Christian Nieng,True,optimist,national leader,National leader optimist
+010.txt,33167,Solomon Islands,True,underdeveloped nation,pacific island,Pacific island underdeveloped nation
+010.txt,33167,Blake Johnson,False,critic,foreign policy analyst,Foreign policy analyst critic
+010.txt,33167,Tony,False,patriot,local resident,Local resident patriot
+011.txt,45644,Congress,True,villain,corrupt,Corrupt villain
+011.txt,45644,Narendra Modi,True,critic,scathing,Scathing critic
+011.txt,45644,Ashok Gehlot,False,incompetent leader,corrupt,Corrupt incompetent leader
+011.txt,45644,Sachin Pilot,False,victim,persecuted,Persecuted victim
+012.txt,1070,David Mackintosh,True,beneficiary,illicit,Illicit beneficiary
+012.txt,1070,Howard Grossman,True,financier,shady,Shady financier
+012.txt,1070,Al Mayfield,False,conduit,unknowning,Unknowning conduit
+012.txt,1070,Northampton South Constituency Association,False,facade,unwitting,Unwitting facade
+013.txt,29341,MS Dhoni,True,legend,inspirational,Inspirational legend
+013.txt,29341,Mohammed Siraj,True,hero,self-made,Self-made hero
+013.txt,29341,Mohammed Ghous,False,pillar,supportive,Supportive pillar
+013.txt,29341,Rohit Sharma,False,leader,appreciative,Appreciative leader
+014.txt,47933,Hezbollah,True,aggressor,regional,Regional aggressor
+014.txt,47933,Israel,True,belligerent,defensive,Defensive belligerent
+014.txt,47933,Hassan Nasrallah,False,mastermind,militant,Militant mastermind
+014.txt,47933,Hossein Amir-Abdollahian,False,mediator,diplomatic,Diplomatic mediator
+015.txt,22953,Ukraine,True,aspirant,eu membership,Eu membership aspirant
+015.txt,22953,Viktor Orbán,True,roadblock,eu expansion,Eu expansion roadblock
+015.txt,22953,European Union,False,gatekeeper,membership,Membership gatekeeper
+015.txt,22953,Hungary,False,obstacle,eu policymaking,Eu policymaking obstacle
+016.txt,21155,Screen Actors Guild-American Federation of Television and Radio Artists (SAG-AFTRA),True,negotiator,collective bargaining,Collective bargaining negotiator
+016.txt,21155,Writers Guild,True,advocate,labor rights,Labor rights advocate
+016.txt,21155,David Zaslav,False,restructurer,corporate,Corporate restructurer
+016.txt,21155,Jonathan Taplin,False,critic,industry,Industry critic
+017.txt,27551,Hamas,True,provocateur,violent,Violent provocateur
+017.txt,27551,Israel,True,aggressor,unrelenting,Unrelenting aggressor
+017.txt,27551,Benjamin Netanyahu,False,hardliner,uncompromising,Uncompromising hardliner
+017.txt,27551,United States,False,enabler,divided,Divided enabler
+018.txt,42256,Tracy Brabin,True,ambassador,regional,Regional ambassador
+018.txt,42256,West Yorkshire,True,hub,economic,Economic hub
+018.txt,42256,Jeremy Hunt,False,architect,economic,Economic architect
+018.txt,42256,Susan Hinchcliffe,False,champion,local,Local champion
+019.txt,45248,North Korea,True,aggressor,nuclear,Nuclear aggressor
+019.txt,45248,South Korea,True,vulnerable nation,threatened,Threatened vulnerable nation
+019.txt,45248,Moon Jae-in,False,peacebroker,former,Former peacebroker
+019.txt,45248,Vladimir Putin,False,enabler,military,Military enabler
+020.txt,35409,Israel,True,aggressor,unyielding,Unyielding aggressor
+020.txt,35409,Joe Biden,True,balancing act,delicate,Delicate balancing act
+020.txt,35409,Aaron David Miller,False,voice of experience,critical,Critical voice of experience
+020.txt,35409,Antony Blinken,False,moderating influence,conciliatory,Conciliatory moderating influence
+021.txt,4660,Coalition of Kaiser Permanente Unions,True,advocate,labour,Labour advocate
+021.txt,4660,Kaiser Permanente,True,opponent,corporate,Corporate opponent
+021.txt,4660,Caroline Lucas,False,champion,worker rights,Worker rights champion
+021.txt,4660,Michael Ramey,False,witness,frontline,Frontline witness
+022.txt,39812,Russia,True,aggressor,military,Military aggressor
+022.txt,39812,Ukraine,True,victim,national,National victim
+022.txt,39812,Serhiy Popko,False,guardian,vigilant,Vigilant guardian
+022.txt,39812,Volodymyr Zelensky,False,protector,resolute,Resolute protector
+023.txt,47028,Hezbollah,True,aggressor,regional,Regional aggressor
+023.txt,47028,Israel,True,belligerent,defensive,Defensive belligerent
+023.txt,47028,Iran,False,backer,militant,Militant backer
+023.txt,47028,United States,False,intervener,military,Military intervener
+024.txt,23451,Morena party,True,coalition,fragile,Fragile coalition
+024.txt,23451,Omar García Harfuch,True,martyr,loyal,Loyal martyr
+024.txt,23451,Andrés Manuel López Obrador,False,unifier,charismatic,Charismatic unifier
+024.txt,23451,Clara Brugada,False,idealist,leftist,Leftist idealist
+025.txt,33096,German Police,True,enforcer,anti-islamist,Anti-islamist enforcer
+025.txt,33096,Nancy Faeser,True,guardian,national security,National security guardian
+025.txt,33096,Hamas,False,threat,terrorist,Terrorist threat
+025.txt,33096,Hezbollah,False,threat,terrorist,Terrorist threat
+026.txt,1221,Doug Downs,True,pragmatist,cautious,Cautious pragmatist
+026.txt,1221,U.S. farmers,True,skeptic,financially risk-averse,Financially risk-averse skeptic
+026.txt,1221,David Lobell,False,researcher,objective,Objective researcher
+026.txt,1221,Terry Cosby,False,optimist,environmentally conscious,Environmentally conscious optimist
+027.txt,1210,International Institute for Democracy and Electoral Assistance (IDEA),True,watchdog,global,Global watchdog
+027.txt,1210,Kevin Casas-Zamora,True,messenger,warning,Warning messenger
+027.txt,1210,Russia,False,aggressor,expansionist,Expansionist aggressor
+027.txt,1210,United States,False,backslider,social,Social backslider
+028.txt,30658,China,True,critic,international,International critic
+028.txt,30658,Israel,True,aggressor,nuclear-armed,Nuclear-armed aggressor
+028.txt,30658,Amihai Eliyahu,False,provocateur,high-ranking,High-ranking provocateur
+028.txt,30658,Gulf Cooperation Council,False,condemner,regional,Regional condemner
+029.txt,45900,Colette Kress,True,messenger,reluctant,Reluctant messenger
+029.txt,45900,Nvidia,True,supplier,critical,Critical supplier
+029.txt,45900,Huawei,False,competitor, domestic, domestic competitor
+029.txt,45900,Microsoft,False,rival,emerging,Emerging rival
+030.txt,13766,International Dairy Foods Association,True,troubleshooter,industry-wide,Industry-wide troubleshooter
+030.txt,13766,Pactiv Evergreen,True,bottleneck,supply chain,Supply chain bottleneck
+030.txt,13766,School Districts,False,victim,circumstantial,Circumstantial victim
+030.txt,13766,U.S. Department of Agriculture,False,mitigator,regulatory,Regulatory mitigator
+031.txt,19453,Adidas,True,donor,conditional,Conditional donor
+031.txt,19453,Ye,True,outcast,antisemitic,Antisemitic outcast
+031.txt,19453,Anti-Defamation League,False,beneficiary,antisemitism-fighting,Antisemitism-fighting beneficiary
+031.txt,19453,Bjorn Gulden,False,reformer,post-crisis,Post-crisis reformer
+032.txt,2502,Heather Pressdee,True,menace,silent,Silent menace
+032.txt,2502,Michelle Henry,True,authority,moral,Moral authority
+032.txt,2502,James DePasquale,False,advocate,defensive,Defensive advocate
+033.txt,46352,National Park Service,True,authority,oppressive,Oppressive authority
+033.txt,46352,Wild Horses,True,treasured entity,endangered,Endangered treasured entity
+033.txt,46352,Angie Richman,False,decision-maker,pragmatic,Pragmatic decision-maker
+033.txt,46352,Grace Kuhn,False,spokesperson,passionate,Passionate spokesperson
+034.txt,35805,Freedom Caucus,True,disruptor,ideological,Ideological disruptor
+034.txt,35805,Mike Johnson,True,unifier,fragile,Fragile unifier
+034.txt,35805,Donald Trump,False,polarizer,influential,Influential polarizer
+034.txt,35805,Joe Biden,False,stabilizer,pragmatic,Pragmatic stabilizer
+035.txt,25268,Israeli forces,True,aggressor,state-sponsored,State-sponsored aggressor
+035.txt,25268,Palestinians,True,victim,civilian,Civilian victim
+035.txt,25268,Hamas,False,provocateur,militant,Militant provocateur
+035.txt,25268,Mohammed Jamjoom,False,observer,journalistic,Journalistic observer
+036.txt,41003,Ali Yerlikaya,True,authority,governmental,Governmental authority
+036.txt,41003,Turkey,True,rescuer,humanitarian,Humanitarian rescuer
+036.txt,41003,Kafkametler cargo ship,False,victim,maritime,Maritime victim
+036.txt,41003,Yilmaz Tunc,False,authority,judicial,Judicial authority
+037.txt,6958,Jefferson Parish Sheriff's Office,True,perpetrator,abusive authority,Abusive authority perpetrator
+037.txt,6958,Randal Quran Reid,True,victim,wrongfully accused,Wrongfully accused victim
+037.txt,6958,Gary Andrews,False,advocate,protective,Protective advocate
+037.txt,6958,Joseph P. Lopinto III,False,enabler,unaccountable,Unaccountable enabler
+038.txt,35806,Ireland,True,ally,pro-palestinian,Pro-palestinian ally
+038.txt,35806,Leo Varadkar,True,critic,anti-israeli aggression,Anti-israeli aggression critic
+038.txt,35806,Hamas,False,aggressor,terrorist,Terrorist aggressor
+038.txt,35806,Niamh Nichillin,False,sympathizer,pro-palestinian rights,Pro-palestinian rights sympathizer
+039.txt,30177,Joe Biden,True,enabler,diplomatic,Diplomatic enabler
+039.txt,30177,Joko Widodo,True,advocate,humanitarian,Humanitarian advocate
+039.txt,30177,Myanmar,False,pariah,regional,Regional pariah
+039.txt,30177,Palestinians,False,victim,disenfranchised,Disenfranchised victim
+040.txt,47064,Imran Khan,True,martyr,persecuted,Persecuted martyr
+040.txt,47064,Shah Mehmood Qureshi,True,associate,loyal,Loyal associate
+040.txt,47064,Pakistan Tehreek-e-Insaf (PTI),False,movement,opposition,Opposition movement
+040.txt,47064,Shehbaz Sharif,False,adversary,powerful,Powerful adversary
+041.txt,29216,David Cameron,True,veteran,establishment,Establishment veteran
+041.txt,29216,Rishi Sunak,True,reformer,embattled,Embattled reformer
+041.txt,29216,Rachel Reeves,False,critic,vocal,Vocal critic
+041.txt,29216,Sir Ed Davey,False,detractor,partisan,Partisan detractor
+042.txt,39196,Ohio state Rep. Jennifer Gross,True,obstructionist,anti-democratic,Anti-democratic obstructionist
+042.txt,39196,Republican elected officials and anti-abortion activists,True,authoritarian,extremist,Extremist authoritarian
+042.txt,39196,Myrna Perez,False,observer,neutral,Neutral observer
+042.txt,39196,Rick Santorum,False,elitist,anti-democratic,Anti-democratic elitist
+043.txt,38361,Badrinath Dham Temple Committee,True,guardian organization,religious,Religious guardian organization
+043.txt,38361,Badrinath Temple,True,sacred monument,hindu,Hindu sacred monument
+043.txt,38361,Devotees,False,faithful follower,hindu,Hindu faithful follower
+044.txt,50852,Congress,True,watchdog,environmental,Environmental watchdog
+044.txt,50852,Jairam Ramesh,True,whistleblower,outspoken,Outspoken whistleblower
+044.txt,50852,41 workers,False,victim,traumatized,Traumatized victim
+044.txt,50852,Rescue workers,False,hero,selfless,Selfless hero
+045.txt,4853,The woman,True,offender,unintentional,Unintentional offender
+045.txt,4853,U.S. Customs and Border Protection,True,guardian,national,National guardian
+045.txt,4853,Augustine Moore,False,protector,knowledgeable,Knowledgeable protector
+045.txt,4853,LaFonda D. Sutton-Burke,False,authority,protective,Protective authority
+046.txt,41011,U.N. Environment Programme,True,watchdog,environmental,Environmental watchdog
+046.txt,41011,United Nations,True,authority,global,Global authority
+046.txt,41011,Anne Olhoff,False,expert,climate,Climate expert
+046.txt,41011,Samantha Burgess,False,observer,scientific,Scientific observer
+047.txt,30657,Joseph Li,True,bridgebuilder,religious,Religious bridgebuilder
+047.txt,30657,Stephen Chow,True,host,diplomatic,Diplomatic host
+047.txt,30657,Beijing,False,assertor,authoritarian,Authoritarian assertor
+047.txt,30657,Pope Francis,False,accommodator,cautious,Cautious accommodator
+048.txt,45898,Philippines,True,protege,threatened,Threatened protege
+048.txt,45898,United States,True,protector,regional,Regional protector
+048.txt,45898,Chinese Foreign Ministry,False,adversary,expansionist,Expansionist adversary
+048.txt,45898,Ferdinand Marcos Jr.,False,pivot,pro-american,Pro-american pivot
+049.txt,4843,Hamas,True,provoker,terroristic,Terroristic provoker
+049.txt,4843,Israel,True,aggressor,military,Military aggressor
+049.txt,4843,Antony Blinken,False,mediator,international,International mediator
+049.txt,4843,Egypt,False,gatekeeper,humanitarian,Humanitarian gatekeeper
+050.txt,20612,Russia,True,aggressor,military,Military aggressor
+050.txt,20612,Ukraine,True,victim,economic,Economic victim
+050.txt,20612,Ukrainian energy infrastructure,False,target,critical,Critical target
+050.txt,20612,Ukrenergo,False,responder,emergency,Emergency responder
+051.txt,47068,Berkshire Hathaway,True,wealth source,family-controlled,Family-controlled wealth source
+051.txt,47068,Warren Buffett,True,philanthropist,generous,Generous philanthropist
+051.txt,47068,NoVo Foundation,False,charitable outlet,family-run,Family-run charitable outlet
+051.txt,47068,The Howard G. Buffett Foundation,False,legacy institution,humanitarian,Humanitarian legacy institution
+052.txt,24948,Hezbollah,True,proxy,iranian,Iranian proxy
+052.txt,24948,Sheikh Hassan Nasrallah,True,mouthpiece,regional,Regional mouthpiece
+052.txt,24948,Houthis,False,proxy,iranian,Iranian proxy
+052.txt,24948,Israel,False,adversary,western-backed,Western-backed adversary
+053.txt,42977,Dr Camilla Kingdon,True,advocate,vocal,Vocal advocate
+053.txt,42977,Royal College of Paediatrics and Child Health,True,guardian,public health,Public health guardian
+053.txt,42977,Doctors,False,protector,vigilant,Vigilant protector
+053.txt,42977,Parents,False,target group,vulnerable,Vulnerable target group
+054.txt,19478,Kelly Bayer Rosmarin,True,downplayer,defensive,Defensive downplayer
+054.txt,19478,Optus,True,culprit,negligent,Negligent culprit
+054.txt,19478,Australian government,False,overseer,concerned,Concerned overseer
+054.txt,19478,Mark Gregory,False,critic,expert,Expert critic
+055.txt,4896,Joshua Bowles,True,extremist,anti-intelligence,Anti-intelligence extremist
+055.txt,4896,United States NSA officer,True,symbolic target,intelligence-associated,Intelligence-associated symbolic target
+055.txt,4896,Duncan Penny,False,accuser,government representative,Government representative accuser
+055.txt,4896,Judge Bobbie Cheema-Grubb,False,authority figure,corrective,Corrective authority figure
+056.txt,45135,Connor Sturgeon,True,perpetrator,mass shooter,Mass shooter perpetrator
+056.txt,45135,Louisville police,True,authority,investigative,Investigative authority
+056.txt,45135,Joshua Barrick,False,victim,innocent,Innocent victim
+056.txt,45135,Lisa Sturgeon,False,witness,maternal,Maternal witness
+057.txt,43112,Ahmed Kullab,True,witness,grieving,Grieving witness
+057.txt,43112,Ibrahim Abuimeir,True,survivor,traumatized,Traumatized survivor
+057.txt,43112,Ehab Abujazar,False,mentor,compassionate,Compassionate mentor
+057.txt,43112,Khaled Al-Nabris,False,victim,elusive,Elusive victim
+058.txt,46938,China,True,epicenter,respiratory illness,Respiratory illness epicenter
+058.txt,46938,World Health Organization (WHO),True,watchdog,global health,Global health watchdog
+058.txt,46938,Krutika Kuppalli,False,expert,infectious diseases,Infectious diseases expert
+058.txt,46938,Yu,False,reporter,field correspondent,Field correspondent reporter
+059.txt,6664,Lilie James,True,victim,tragic,Tragic victim
+059.txt,6664,Paul Thijssen,True,perpetrator,violent,Violent perpetrator
+059.txt,6664,Karen Bevan,False,advocate,vocal,Vocal advocate
+059.txt,6664,Tarang Chawla,False,reformer,passionate,Passionate reformer
+060.txt,46082,Gurpatwant Singh Pannun,True,target,assassination,Assassination target
+060.txt,46082,Indian Government,True,aggressor,covert,Covert aggressor
+060.txt,46082,Canada,False,accuser,diplomatic,Diplomatic accuser
+060.txt,46082,United States Government,False,protector,intervening,Intervening protector
+061.txt,46485,Apple Inc.,True,leader,market,Market leader
+061.txt,46485,iPhone,True,cash cow,surging,Surging cash cow
+061.txt,46485,Counterpoint,False,authority,market research,Market research authority
+061.txt,46485,Lenovo,False,competitor,affordable,Affordable competitor
+062.txt,21122,Garment Workers,True,vulnerable group,exploited,Exploited vulnerable group
+062.txt,21122,Sheikh Hasina,True,authority,unyielding,Unyielding authority
+062.txt,21122,Bangladesh Government,False,oppressor,authoritarian,Authoritarian oppressor
+062.txt,21122,United States,False,influencer,foreign,Foreign influencer
+063.txt,34984,David Cameron,True,ally,staunch,Staunch ally
+063.txt,34984,Volodymyr Zelensky,True,leader,resilient,Resilient leader
+063.txt,34984,Russia,False,aggressor,military,Military aggressor
+063.txt,34984,United Kingdom,False,supporter,unwavering,Unwavering supporter
+064.txt,41567,Israel,True,aggressor,expansionist,Expansionist aggressor
+064.txt,41567,Riyad al-Maliki,True,accuser,vocal,Vocal accuser
+064.txt,41567,China,False,mediator,assertive,Assertive mediator
+064.txt,41567,Palestinian Authority,False,victim,displaced,Displaced victim
+065.txt,4915,Hamas,True,aggressor,ruthless,Ruthless aggressor
+065.txt,4915,Joe Biden,True,protector,compassionate,Compassionate protector
+065.txt,4915,John Kirby,False,spokesperson,emotional,Emotional spokesperson
+065.txt,4915,Kevin McCarthy,False,critic,demanding,Demanding critic
+066.txt,2563,Disney,True,investor,strategic,Strategic investor
+066.txt,2563,ESPN,True,asset,valuable,Valuable asset
+066.txt,2563,BofA Global Research,False,advisor,financial,Financial advisor
+066.txt,2563,National Basketball Association,False,suitor,potential,Potential suitor
+067.txt,25077,John Bel Edwards,True,advocate,civil rights,Civil rights advocate
+067.txt,25077,Louisiana Legislature,True,obstructionist,partisan,Partisan obstructionist
+067.txt,25077,Democrats,False,champion,minority rights,Minority rights champion
+067.txt,25077,Republicans,False,oppressor,racial,Racial oppressor
+068.txt,18571,Biden administration,True,enabler,pro-israel,Pro-israel enabler
+068.txt,18571,Rupi Kaur,True,activist,outspoken,Outspoken activist
+068.txt,18571,Hamas,False,aggressor,militant,Militant aggressor
+068.txt,18571,Kamala Harris,False,figurehead,silent,Silent figurehead
+069.txt,40532,OpenAI Board,True,villain,incompetent,Incompetent villain
+069.txt,40532,Sam Altman,True,leader,ousted,Ousted leader
+069.txt,40532,Microsoft,False,savior,powerful,Powerful savior
+069.txt,40532,OpenAI Staff,False,loyalist,defiant,Defiant loyalist
+070.txt,32112,Fossil Free London,True,activist group,environmental,Environmental activist group
+070.txt,32112,Greta Thunberg,True,protestor,peaceful climate,Peaceful climate protestor
+070.txt,32112,Greenpeace,False,activist group,anti-pollution,Anti-pollution activist group
+070.txt,32112,Metropolitan Police,False,authority,restrictive,Restrictive authority
+071.txt,4718,Tetiana Yarema,True,survivor,resilient,Resilient survivor
+071.txt,4718,Volodymyr Zelenskyy,True,leader,defiant,Defiant leader
+071.txt,4718,Andrii Horchynskyi,False,preparer,proactive,Proactive preparer
+071.txt,4718,Denys Shmyhal,False,coordinator,diplomatic,Diplomatic coordinator
+072.txt,20608,Robert Fico,True,obstructionist,pro-russian,Pro-russian obstructionist
+072.txt,20608,Slovakia,True,pivot,pro-russian,Pro-russian pivot
+072.txt,20608,NATO,False,ally,western,Western ally
+072.txt,20608,Russia,False,aggressor,regional,Regional aggressor
+073.txt,39685,Hamas,True,aggressor,terrorist,Terrorist aggressor
+073.txt,39685,Israel,True,belligerent,retaliatory,Retaliatory belligerent
+073.txt,39685,Ari Levi,False,victim,anguished,Anguished victim
+073.txt,39685,Benjamin Netanyahu,False,hardliner,unyielding,Unyielding hardliner
+074.txt,36834,LGBTQ community,True,vulnerable group,persecuted,Persecuted vulnerable group
+074.txt,36834,Russian authorities,True,oppressor,social,Social oppressor
+074.txt,36834,Ministry of Justice,False,enforcer,authoritarian,Authoritarian enforcer
+074.txt,36834,Pyotr Tolstoy,False,hardliner,anti-progressive,Anti-progressive hardliner
+075.txt,12871,Armagh Observatory,True,evidence source,climate,Climate evidence source
+075.txt,12871,County Armagh,True,disaster zone,flood-prone,Flood-prone disaster zone
+075.txt,12871,County Down,False,disaster zone,flood-prone,Flood-prone disaster zone
+075.txt,12871,Prof Michael Burton,False,expert witness,climate,Climate expert witness
+076.txt,49135,Kyriakos Mitsotakis,True,champion,cultural,Cultural champion
+076.txt,49135,Rishi Sunak,True,gatekeeper,reluctant,Reluctant gatekeeper
+076.txt,49135,Greek Government,False,claimant,persistent,Persistent claimant
+076.txt,49135,Keir Starmer,False,mediator,diplomatic,Diplomatic mediator
+077.txt,25323,Benjamin Netanyahu,True,hardliner,unyielding,Unyielding hardliner
+077.txt,25323,Hamas,True,militant force,resilient,Resilient militant force
+077.txt,25323,Israel,False,aggressor,unrelenting,Unrelenting aggressor
+077.txt,25323,Shifa Hospital,False,victim,besieged,Besieged victim
+078.txt,14015,Nikolai Patrushev,True,ideologue,anti-western,Anti-western ideologue
+078.txt,14015,Vladimir Putin,True,unifier,nationalist,Nationalist unifier
+078.txt,14015,Russia,False,bastion,civilizational,Civilizational bastion
+078.txt,14015,The West,False,adversary,hegemonic,Hegemonic adversary
+079.txt,36575,Lord Frost,True,hawk,brexit,Brexit hawk
+079.txt,36575,Suella Braverman,True,hardliner,immigration,Immigration hardliner
+079.txt,36575,Ministry of Defence,False,battleground,toxic,Toxic battleground
+079.txt,36575,Rishi Sunak,False,pragmatist,embattled,Embattled pragmatist
+080.txt,46943,Ming Guoping,True,scion,criminal,Criminal scion
+080.txt,46943,Ming Xuechang,True,warlord,ruthless,Ruthless warlord
+080.txt,46943,Bai Suocheng,False,kingpin,powerful,Powerful kingpin
+080.txt,46943,Ming Zhenzhen,False,scion,entitled,Entitled scion
+081.txt,36569,Ukraine,True,underdog,militarily,Militarily underdog
+081.txt,36569,Volodymyr Zelenskyy,True,advocate,urgent,Urgent advocate
+081.txt,36569,Israel,False,competitor,unintentional,Unintentional competitor
+081.txt,36569,U.S. arms companies,False,supplier,struggling,Struggling supplier
+082.txt,15464,CDS Superstores,True,savior,economic,Economic savior
+082.txt,15464,Wilko,True,loss,economic,Economic loss
+082.txt,15464,Lisa Swan,False,victim,economic,Economic victim
+082.txt,15464,Tina Bellamy,False,survivor,resilient,Resilient survivor
+083.txt,16133,Developing Nations,True,exploitee,economic,Economic exploitee
+083.txt,16133,United States,True,obstructor,influential,Influential obstructor
+083.txt,16133,Jennifer Morgan,False,ally,idealistic,Idealistic ally
+083.txt,16133,World Bank,False,manipulator,financial,Financial manipulator
+084.txt,43081,Shawn Fain,True,champion,worker rights,Worker rights champion
+084.txt,43081,United Auto Workers,True,revitalized force,labor movement,Labor movement revitalized force
+084.txt,43081,General Motors,False,negotiating partner,reluctant,Reluctant negotiating partner
+084.txt,43081,Stellantis,False,negotiating partner,reluctant,Reluctant negotiating partner
+085.txt,6921,Forbes,True,authority,financial,Financial authority
+085.txt,6921,Magic Johnson,True,mogul,self-made,Self-made mogul
+085.txt,6921,LeBron James,False,counterpart,successful,Successful counterpart
+085.txt,6921,Tiger Woods,False,counterpart,elite,Elite counterpart
+086.txt,19229,International Committee of the Red Cross (ICRC),True,guardian,humanitarian,Humanitarian guardian
+086.txt,19229,Palestinian Red Crescent Society,True,refuge,medical,Medical refuge
+086.txt,19229,United Nations,False,watchdog,global,Global watchdog
+086.txt,19229,William Schomburg,False,advocate,humanitarian law,Humanitarian law advocate
+087.txt,17153,Russia,True,aggressor,economically strong,Economically strong aggressor
+087.txt,17153,Ukraine,True,underdog,resilient,Resilient underdog
+087.txt,17153,Boris,False,draft dodger,resourceful,Resourceful draft dodger
+087.txt,17153,Ihor Romanenko,False,critic,frustrated,Frustrated critic
+088.txt,22033,Joe Biden,True,mediator,global,Global mediator
+088.txt,22033,Xi Jinping,True,adversary,geopolitical,Geopolitical adversary
+088.txt,22033,Janet Yellen,False,negotiator,economic,Economic negotiator
+088.txt,22033,Karine Jean-Pierre,False,messenger,diplomatic,Diplomatic messenger
+089.txt,35390,Australia,True,challenger,underdog,Underdog challenger
+089.txt,35390,India,True,powerhouse,cricketing,Cricketing powerhouse
+089.txt,35390,Narendra Modi,False,patriarch,nationalist,Nationalist patriarch
+089.txt,35390,Varun Grover,False,commentator,socially conscious,Socially conscious commentator
+090.txt,46063,Russia,True,aggressor,military,Military aggressor
+090.txt,46063,Ukraine,True,victim,besieged,Besieged victim
+090.txt,46063,Iran,False,accomplice,military,Military accomplice
+090.txt,46063,Kremlin,False,enabler,evasive,Evasive enabler
+091.txt,38797,Captain Don Walsh,True,pioneer,oceanic,Oceanic pioneer
+091.txt,38797,Jacques Piccard,True,innovator,exploratory,Exploratory innovator
+091.txt,38797,James Cameron,False,successor,historic,Historic successor
+091.txt,38797,US Navy,False,catalyst,scientific,Scientific catalyst
+092.txt,24949,Israeli army,True,aggressor,systematic,Systematic aggressor
+092.txt,24949,Palestinians,True,victim,recurring,Recurring victim
+092.txt,24949,Families in Jenin refugee camp,False,refugee,displaced,Displaced refugee
+093.txt,43867,Choi + Shine,True,visionary,creative,Creative visionary
+093.txt,43867,Jeremy Hunt,True,influencer,financial,Financial influencer
+093.txt,43867,Bystrup,False,innovator,architectural,Architectural innovator
+093.txt,43867,National Grid,False,facilitator,adaptive,Adaptive facilitator
+094.txt,6937,Jim Jordan,True,enabler,alleged,Alleged enabler
+094.txt,6937,Rocky Ratliff,True,whistleblower,outspoken,Outspoken whistleblower
+094.txt,6937,Dr. Richard Strauss,False,abuser,serial,Serial abuser
+094.txt,6937,Ohio State University,False,negligent institution,complicit,Complicit negligent institution
+095.txt,7675,George Santos,True,deceiver,political,Political deceiver
+095.txt,7675,Nancy Marks,True,accomplice,financial,Financial accomplice
+096.txt,50469,Hamas,True,aggressor,palestinian,Palestinian aggressor
+096.txt,50469,Israel,True,aggressor,government,Government aggressor
+096.txt,50469,Elon Musk,False,pacifist,outsider,Outsider pacifist
+096.txt,50469,Osama Hamdan,False,advocate,palestinian,Palestinian advocate
+097.txt,15508,India,True,frontrunner,undefeated,Undefeated frontrunner
+097.txt,15508,South Africa,True,threat,formidable,Formidable threat
+097.txt,15508,Rohit Sharma,False,leader,cautious,Cautious leader
+097.txt,15508,Sachin Tendulkar,False,legend,historic,Historic legend
+098.txt,15532,India,True,conservative investor,cautious,Cautious conservative investor
+098.txt,15532,V K Saraswat,True,skeptical evaluator,pragmatic,Pragmatic skeptical evaluator
+098.txt,15532,Bangalore Metropolitan Transport Corporation,False,testing partner,collaborative,Collaborative testing partner
+098.txt,15532,Elon Musk,False,innovative proposer,visionary,Visionary innovative proposer
+099.txt,9656,Chinese government,True,controller,authoritarian,Authoritarian controller
+099.txt,9656,Evergrande,True,zombie,economic,Economic zombie
+099.txt,9656,Dexter Roberts,False,expert,outside,Outside expert
+099.txt,9656,Hui Ka Yan,False,puppet,fallen,Fallen puppet
+100.txt,48210,Toyota Kirloskar Motor,True,market leader,indian automotive,Indian automotive market leader
+100.txt,48210,Vikram Gulati,True,optimist,economic growth,Economic growth optimist
+100.txt,48210,Toyota,False,global player,cautious innovator,Cautious innovator global player
+101.txt,12131,Ben Stokes,True,victim,environmental,Environmental victim
+101.txt,12131,Rohit Sharma,True,concerned citizen,environmentally aware,Environmentally aware concerned citizen
+101.txt,12131,England cricketers,False,vulnerable group,foreign,Foreign vulnerable group
+101.txt,12131,National Capital Region,False,pollution hotspot,annual,Annual pollution hotspot
+102.txt,36833,Russia,True,aggressor,relentless,Relentless aggressor
+102.txt,36833,Ukraine,True,aggressor,effective,Effective aggressor
+103.txt,16528,Apple,True,client,high-value,High-value client
+103.txt,16528,Foxconn,True,manufacturer,electronics,Electronics manufacturer
+103.txt,16528,Hon Hai Precision Industry Co Ltd,False,parent company,multinational,Multinational parent company
+103.txt,16528,Microsoft,False,competitor,software,Software competitor
+104.txt,30652,Federal Reserve,True,authority,monetary,Monetary authority
+104.txt,30652,Wall Street,True,catalyst,economic,Economic catalyst
+104.txt,30652,Japan,False,laggard,economic,Economic laggard
+104.txt,30652,Nvidia,False,bellwether,technological,Technological bellwether
+105.txt,48555,Israel,True,victim,national,National victim
+105.txt,48555,Sanjay Raut,True,diplomat,defensive,Defensive diplomat
+105.txt,48555,Adolf Hitler,False,reference,historical,Historical reference
+105.txt,48555,Hamas,False,aggressor,militant,Militant aggressor
+106.txt,25719,Moody's,True,critic,economic,Economic critic
+106.txt,25719,US Treasury,True,defendant,financial,Financial defendant
+106.txt,25719,Biden Administration,False,defendant,pro-fiscal sustainability,Pro-fiscal sustainability defendant
+106.txt,25719,US Congress,False,decision maker,polarized,Polarized decision maker
+107.txt,40948,Congress,True,villain,corrupt,Corrupt villain
+107.txt,40948,Narendra Modi,True,champion,pro-development,Pro-development champion
+107.txt,40948,Bihar Chief Minister Nitish Kumar,False,misogynist,insensitive,Insensitive misogynist
+107.txt,40948,Udhayanidhi Stalin,False,radical,anti-traditional,Anti-traditional radical
+108.txt,4744,Kevin McCarthy,True,deal-maker,divisive,Divisive deal-maker
+108.txt,4744,Matt Gaetz,True,insurgent,right-wing,Right-wing insurgent
+108.txt,4744,Joe Biden,False,negotiator,shrewd,Shrewd negotiator
+109.txt,41893,Hamas,True,aggressor,unreliable,Unreliable aggressor
+109.txt,41893,Joe Biden,True,optimist,cautious,Cautious optimist
+109.txt,41893,Israeli officials,False,victim,informed,Informed victim
+109.txt,41893,John Kirby,False,pragmatist,discreet,Discreet pragmatist
+110.txt,21073,NHS,True,support system,overburdened,Overburdened support system
+110.txt,21073,Prof Sir Chris Whitty,True,reformer,proactive,Proactive reformer
+110.txt,21073,Paul Farmer,False,catalyst,policy-driven,Policy-driven catalyst
+110.txt,21073,Prof Dame Carol Black,False,advocate,social justice,Social justice advocate
+111.txt,31065,European Union,True,underperformer,militarily,Militarily underperformer
+111.txt,31065,Ukraine,True,victim,war-torn,War-torn victim
+111.txt,31065,Hanno Pevkur,False,critic,outspoken,Outspoken critic
+111.txt,31065,Josep Borrell,False,problem-solver,pragmatic,Pragmatic problem-solver
+112.txt,21039,Ayansh Tiwari,True,victim,innocent,Innocent victim
+112.txt,21039,Julie Tiwari,True,caregiver,helpless,Helpless caregiver
+112.txt,21039,IQAir,False,authority,environmental,Environmental authority
+112.txt,21039,New Delhi,False,polluter,chronic,Chronic polluter
+113.txt,39177,Javier Milei,True,revolutionary,right-wing,Right-wing revolutionary
+113.txt,39177,Sergio Massa,True,establishment figure,left-wing,Left-wing establishment figure
+113.txt,39177,Mauricio Macri,False,influential ally,conservative,Conservative influential ally
+113.txt,39177,Patricia Bullrich,False,power broker,conservative,Conservative power broker
+114.txt,24759,Joe Biden,True,host,diplomatic,Diplomatic host
+114.txt,24759,Xi Jinping,True,guest,discerning,Discerning guest
+114.txt,24759,Ryan Hass,False,analyst,insightful,Insightful analyst
+114.txt,24759,Victor Cha,False,expert,experienced,Experienced expert
+115.txt,27320,Arakan Army,True,insurgent,ethnic,Ethnic insurgent
+115.txt,27320,The Three Brotherhood Alliance,True,insurgent coalition,ethnic minority,Ethnic minority insurgent coalition
+115.txt,27320,Assistance Association for Political Prisoners,False,watchdog,human rights,Human rights watchdog
+115.txt,27320,Myanmar's military,False,oppressor,authoritarian,Authoritarian oppressor
+116.txt,33180,Bill Bowerman,True,mentor,innovative,Innovative mentor
+116.txt,33180,Phil Knight,True,visionary,resilient,Resilient visionary
+116.txt,33180,Carolyn Davidson,False,artist,underappreciated,Underappreciated artist
+116.txt,33180,Nike,False,icon,global,Global icon
+117.txt,29298,Jitendra Gohil,True,optimist,cautious,Cautious optimist
+117.txt,29298,Kotak Alternate Asset Managers,True,guide,financial,Financial guide
+117.txt,29298,China,False,influencer,economic,Economic influencer
+117.txt,29298,Indian Government,False,enabler,fiscal,Fiscal enabler
+118.txt,45287,OpenAI,True,battleground,governance-challenged,Governance-challenged battleground
+118.txt,45287,Sam Altman,True,protagonist,resurgent,Resurgent protagonist
+118.txt,45287,Greg Brockman,False,loyalist,key ally,Key ally loyalist
+118.txt,45287,Satya Nadella,False,powerbroker,influential,Influential powerbroker
+119.txt,4859,Joseph Czuba,True,perpetrator,hateful,Hateful perpetrator
+119.txt,4859,Wadea al-Fayoume,True,victim,innocent,Innocent victim
+119.txt,4859,David Carlson,False,authority,judicial,Judicial authority
+119.txt,4859,Yousef Hannon,False,spokesperson,familial,Familial spokesperson
