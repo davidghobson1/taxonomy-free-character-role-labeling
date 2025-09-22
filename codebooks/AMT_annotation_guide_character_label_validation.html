@@ -1,0 +1,749 @@
+<html>
+	<head>
+		<title>HIT</title>
+		<meta http-equiv="Content-Type" content="text/html; charset=UTF-8"/>
+	</head>
+
+<body>
+
+<script src="https://assets.crowd.aws/crowd-html-elements.js"></script>
+
+<style>
+  body {
+    padding-right: 50px;
+    padding-left: 50px;
+    margin-bottom: 50px;
+  }
+</style>
+
+<crowd-form>
+
+	<crowd-instructions link-text="View instructions" link-type="button">
+		<short-summary>
+      <p>Rank and evaluate the given character role labels from the news articles. You will be shown a text, a name of a character, and a list of candidate labels for that character. Rank the labels from best to worst (best = 1, worst = 5) and rate each label according to its Faithfulness, Relevance, Informativeness, and Generalizability. See the Detailed Instructions tab for definitions of these. In some cases the options may be very similar or even identical, and some of the choices may be quite subjective. Use your best judgment to rank them as best you can.</p>
+      <p><strong>VERY IMPORTANTLY</strong>: the texts are drawn from real-life news and so you may already be familiar with some of the characters or have preconceived notions about them. Please note: <strong>your goal is to identify the best labels for the character <i>as they are depicted by the text</i></strong>, and NOT by how you view them already. For example, if one of the characters is Donald Trump or Joe Biden, treat them as if you are encountering them for the first time, and do NOT let your pre-existing opinions about the characters influence your choice of label.</p>
+      Please see the Detailed Instructions tab for how to determine what labels are good vs. bad, and for details on the rating criteria.
+		</short-summary>
+		
+		<detailed-instructions>
+		  <p>This project aims to evaluate the quality of character role labels within news stories. 
+      
+      Character role labels are general classes of characters that possess similar traits, functions, or patterns of behaviour across different stories. They are similar to character tropes or character archetypes from movies or fairy tales. Specifically, a character role is the purpose a character occupies within a story, and can be defined by the actions, relationships, or functions a character performs to advance the plot or convey meaning. Some <strong>examples</strong> of character roles for well-known characters include:</p>
+      <ul>
+        <li>
+            <strong>The Sidekick</strong>
+            (Ex. Robin from <em>Batman</em>, Dr. Watson from <em>Sherlock Holmes</em>)
+        </li>
+        <li>
+            <strong>The Grumpy Old Man</strong> 
+            (Ex. Carl from the Pixar movie <em>Up</em>, Ebenezer Scrooge from Charles Dickens’ <em>A Christmas Carol</em>)
+        </li>
+        <li>
+            <strong>The Corrupt (or Ruthless) Business Executive</strong> (Ex. Lex Luthor from <em>Superman</em>, Miranda Priestly from <em>The Devil Wears Prada</em>)
+        </li>
+        <li>
+            <strong>The Reluctant Hero</strong> (Ex. Luke Skywalker from <em>Star Wars</em>, Odysseus from Greek mythology)
+        </li>
+        <li>
+            <strong>The Trickster</strong> (Ex. (Captain) Jack Sparrow from <em>Pirates of the Caribbean</em>, Loki from Norse mythology and Marvel)
+        </li>
+        <li>
+            <strong>The Mentor</strong> (Ex.  Gandalf from <em>The Lord of the Rings</em>, Morpheus from <em>The Matrix</em>)
+        </li>
+    </ul>
+
+    <p>
+    Character roles are meant to be both descriptive and predictive: they allow us to infer who the character is and how they will likely behave. For example, Sidekicks can be expected to help out the main character, and Tricksters will cause trouble but also find clever ways out of trouble.
+    </p>
+    <p>
+    Many character roles are quite general and apply to characters across different genres, but they can also differ in their generality. For instance, “Innocent Victim” is more specific and descriptive than “Victim”, however either can be more appropriate depending on what the story emphasizes. 
+    </p>
+    <p>
+    Importantly, character roles are also not mutually exclusive, and can depend on the source story or story genre. Merlin from the stories of King Author can be a Mentor, a Grumpy Old Man, or even a Hero depending on the specific story. 
+    </p>
+    <p>
+      In this project, the goal is to identify good character role labels in news articles from a list of candidate labels and to rate them, individually, according to specific criteria. You will be presented with a text, the name of a character, as well as a list of candidate labels for that character. The task will include the following subtasks:</p>
+      <ol>
+        <li><strong>RANKING</strong>. Rank the character labels from best to worst (1 = best, 5 = worst).</li>
+        <li><strong>RATING</strong>. Rate each label according to the following criteria:
+          <ul>
+            <li><strong>Faithfulness:</strong> Is the character’s label consistent with the text?<br>*This feature captures whether the label factually aligns with the character’s role in the story.
+              <ul>
+                <li>Yes</li>
+                <li>No</li>
+              </ul>
+            </li>
+            <li><strong>Relevance:</strong> Does the label capture the most central information about the character’s role in the text?<br>*This captures the extent to which the label captures the main focus or most important content of the character’s function in the text.
+              <ul>
+                <li>1 - not relevant</li>
+                <li>2 - somewhat relevant</li>
+                <li>3 - very relevant</li>
+              </ul>
+            </li>
+            <li><strong>Informativeness:</strong> Does it provide useful information about the character’s identity and help predict how they will behave in future situations?<br>*This feature captures the predictive power of the label.
+              <ul>
+                <li>1 - not informative</li>
+                <li>2 - somewhat informative</li>
+                <li>3 - very informative</li>
+              </ul>
+            </li>
+            <li><strong>Generalizability: </strong>How easily could the label be applied to characters in other news stories? Does the label generalize well to characters in other news stories or other news topics? Here, other news topics might include Politics, Sports, Business, Science, Music, Arts, etc.<br>*This feature captures whether the label can generalize well to other characters. 
+              <ul>
+                <li>1 - not generalizable</li>
+                <li>2 - somewhat generalizable</li>
+                <li>3 - very generalizable</li>
+              </ul>
+            </li>
+          </ul>
+        </li>
+      </ol>
+
+    Note: Characters can be individuals but also collective entities like corporations (Exxon), institutions (the Supreme Court), or countries (France).
+
+    <div>
+      <p><strong>Notes about the ranking (part A):</strong></p>
+      <ul>
+        <li>In some cases, all labels may be appropriate or very similar. Use your best judgment to determine which is best and worst. If two labels are equally applicable, select either one as the better one.</li>
+        <li><strong>You aren't allowed ties in your ranking.</strong></li>
+        <li>If a label appears twice in the list, give them consecutive labels. E.g. if "victim" occurs twice, you can label it as 1 and 2, 2 and 3, 3 and 4, or 4 and 5, but not as both 1 (both 2, etc.) and not as 1 and 3, 2 and 5, or numbers that don't follow each other. If you do not rank identical labels consecutively, your answers will be rejected.</li>
+        <li>Remember to rank the labels <strong>based on how they apply to the character's depiction in the text, NOT by how you view them already.</strong></li> 
+      </ul>
+    </div>
+
+    <div>
+      <p><strong>Notes about rating (part B):</strong></p>
+      <ul>
+        <li>If two or more labels are the same, please rate them the same across all criteria. Your answers will be rejected if you do not follow this.</li>
+        <li>Like with the rankings, rate the labels <strong>based on the character's depiction in the text, NOT by how you view them already.</strong></li> 
+      </ul>
+    </div>
+    
+    <div>
+      <p><strong>Notes about the task:</strong></p>
+      <ul>
+        <li>
+          Some questions are "trap" questions, and are meant to indicate to us that you have adequately read and understood the stories. While many of the questions on this survey are highly subjective and can have many possible answers, the trap questions are designed to be easy. If you have read and understood each story, the answers will be straighforward. Please answer the questions honestly and note that your answers may be rejected if they are not satisfactory.
+        </li>
+        <li>
+          You must answer every question.
+        </li>
+      </ul>
+      </div>
+
+		</detailed-instructions>
+
+		<positive-example>
+
+      <div>
+        <p><strong>Tips about good labels:</strong></p>
+        <ul>
+          <li>
+            Good labels are consistent with the portrayal of the character in the text, and capture an important dimension about them. For instance, an article about Lionel Messi may talk about how he's a great soccer player or possibly about what a great father he is. In those cases, "Elite Athlete" or "Great Dad" are applicable, but one might be more applicable than another in a given article even though both are true. See below for another example.
+          </li>
+          <li>
+            Good labels are descriptive and predictive. We can expect "Great Dads" to be loving, supportive, and fun. By contrast, "Dad" is not as good a label because isn't very descriptive (has low informativeness) and is vague (we don't know what kind of dad the character is and so don't know what to expect from them).
+          </li>
+          <li>
+            Good labels are generalizable and applicable to a broad range of different stories. "Great Dads" is applicable to many different characters in many different articles. The label "57-year old Dad with a Leopard Tattoo" isn't very applicable to characters in many articles or stories because it is too specific (has low generalizability).
+          </li>
+          <li>See the example below for another example.</li>
+        </ul>
+      </div>
+
+      <p><strong>1)</strong> Text: Amidst his busy schedule, US President Donald Trump went golfing with his son Barron earlier this afternoon. Having spent much of his time lately in the Oval Office, he took to the course with Barron this Sunday to enjoy the nice weather. The two of them played a round together at Trump’s West Palm Beach golf course and enjoyed a private dinner at the club house before returning to Mar-a-Lago. Even as he is busy tackling the country's challenges, Trump is hoping to cultivate a better relationship with his son over the next year.</p>
+      <p>
+      Character: <strong>Donald Trump</strong>
+        <ul>
+          <li>Hardworking Leader - 2</li>
+          <li>Leader - 3</li>
+          <li>Liar - 4</li>
+          <li>Great Dad - 1</li>
+        </ul>
+      </p>
+      <div>
+        <strong>A) RANKING.</strong> The article clearly focuses more on Trump as a father figure than as President, so "Great Dad" is ranked 1 (best). Trump is also depicted as a hardworking leader ("Amidst his busy schedule", "Having spent much of his time lately in the Oval Office") so this is ranked 2. Note that regardless of whether you, personally, think Trump is a hardworking leader in real-life, the article still portrays him this way and that is what we want to find (how does the author portray the character). "Leader" is also correct, but isn't as informative/descriptive as "Hardworking Leader" so it gets rank 3. "Liar" is not implied by the text so the rank is 4.
+      </div>
+      <br>
+      <div>
+        <strong>B) RATING.</strong> Examples of labels with different ratings for the text above:
+        <ul><strong>Faithfulness</strong>
+            <li>"Hardworking Leader": Yes (implied by the text)</li>
+            <li>"Great Dad": Yes (implied by the text)</li>
+            <li>"Leader": Yes (implied by the text)</li>
+            <li>"Liar": No (not implied by the text)</li>
+        </ul>
+        <ul><strong>Relevance</strong>
+            <li>"Great Dad": 3 - very relevant (very central to the character portrayal in the text)</li>
+            <li>"Hardworking Leader": 2 - somewhat relevant (part of the portrayal in the text, but not as emphasized as the character being a good parent)</li>
+            <li>"Liar": 1 - not relevant (not part of the portrayal at all)</li>
+        </ul>
+        <ul><strong>Informativeness</strong>
+            <li>"Great Dad": 3 - very informative (gives us good insight into how the character may behave in other situations)</li>
+            <li>"Leader": 2 - somewhat informative (gives us some insight into who the character is and how they may behave in other situations. "Hardworing Leader" would be more informative.)</li>
+            <li>"Public Figure": 1 - not informative (gives us sparingly little insight into who the character is. "Polarizing Public Figure" would be more informative.)</li>
+            <li>"Man": 1 - not informative (too broad, gives us no information. Note that "Insecure Man" would be an informative label though.)</li>
+        </ul>
+        *Note that insightfulness depends on the context of the article. There may be some articles where "Leader" is more or less informative.
+        <ul><strong>Generalizability</strong><br>*For this criteria, think about how applicable the label is to characters in other news topics like Politics, Sports, Business, Science, Music, Arts, etc. Would the label be applicable to characters in those settings?
+            <li>"Hardworking Leader": 3 - very generalizable (could be applied to a character across any news topic. An athlete, musician, scientist, business person, etc. could all have this label.)</li>          
+            <li>"US President": 2 - somewhat generalizable (could be applied to a character in Political news, but much less likely for other news types, like Sports news)</li>
+            <li>"47th President of the U.S.A.": 1 - not generalizable (so detailed it only applies to a single person and cannot be applied to any character from any other news story. If a label only applies to one person or a fixed group of people that is limited in size (like "Founder of Nike", which can only ever be applied to 2 people) give the label "1" for generalizability by default.)</li>
+        </ul>
+      </div>
+    </positive-example>
+
+    <negative-example>
+      <div>
+        <p><strong>Tips about bad labels:</strong></p>
+        <ul>
+          <li><strong>Bad labels are based on how you view the character as opposed to how the character is depicted in the text</strong></li>
+          <li>Labels <strong>shouldn't repeat their entity identity</strong>. For example, “Corporation” is not a good character role label, but “Corrupt Corporation” is (or “Visionary Leader” instead of “Leader”).</li>
+          <li>Because people in the news are often associated with their occupations <strong>it is important that occupations not be confused with roles.</strong> “Lawyer” is a low informativeness label, but “Hot-shot Lawyer” is high informativeness because it gives us an idea of the type the lawyer is playing in the story. Role labels can also be more general like "Hero", "Villain", or "Victim" if the story warrants it. </li>
+        </ul>
+      </div>
+
+      <p><strong>See article 1 to the left.</strong></p>
+      <p>
+        Character: <strong>Donald Trump</strong>
+            <ul>
+              <li>Hardworking Leader - 3</li>
+              <li>Leader - 2</li>
+              <li>Liar - 1</li>
+              <li>Great Dad - 4</li>
+            </ul>
+      </p>
+      <p>
+        <strong>A) RANKING.</strong> If you are not a fan of Trump and happen to think he's a liar in real-life and therefore assign this ranking, that's not what we are after. We are not interested in how you view or feel about a character, but how <i>the article</i> depicts them. This text clearly doesn't depict Trump as a liar, so ranking it as 1 is not correct. Also, ranking "Leader" above "Hardworking Leader" is also an error, because "Hardworking Leader" is both appropriate given the text and also more descriptive, even though "Leader" is correct as well.
+      </p>
+      <br>
+      <div>
+        <strong>B) RATING.</strong> Examples of bad label ratings:
+        <ul><strong>Faithfulness</strong>
+            <li>"Conspiracy Theorist": Yes (incorrect because this is not consistent with how Trump is depicted by the text)</li>
+        </ul>
+        <ul><strong>Relevance</strong>
+            <li>"Business Owner": 3 - very relevant (incorrect because although this is vaguely implied, it is not central to the character's portrayal)</li>
+            <li>"Liar": 3 - very relevant (incorrect because this is not consistent with how Trump is depicted by the text)</li>
+        </ul>
+        <ul><strong>Informativeness</strong>
+            <li>"Public Figure": 3 - very informative (incorrect because this label is very general and gives us little insight into who the character is.)</li>
+        </ul>
+        <ul><strong>Generalizability</strong>
+            <li>"47th President of the U.S.A.": 3 - very generalizable (incorrect because because this label only applies to a single person and cannot be applied to any character from any other news story. These kinds of labels should be rated "1" by default for generalizability)</li>
+        </ul>
+      </div>
+
+    </negative-example>
+  </crowd-instructions>
+
+  <div>
+	  <h2>Instructions</h2>
+	  <p>
+		  The following task is about <i>understanding characters</i> in news articles. You will be given a news article, a character from that article, and a list of <i>character role labels</i> for that character. Please see the defintions below. You will be asked to <strong>rank</strong> the labels from best to worst (best = 1, worst = 5), and <strong>evaluate</strong> them based on the criteria below. In some cases the options may be identical or very similar, and the choices may be quite subjective. Use your best judgment to rank and evaluate them. </p>
+		  <ul>
+			  <li>
+				  <b>Character Role Label</b>: a general class of characters that possess similar traits, functions, or patterns of behaviour across different stories. Examples include, <i>Sidekick</i>, <i>Grumpy Old Man</i>, <i>Corrupt Business Executive</i>, etc. Character roles encompass the purpose a character occupies within a story and can be defined by the actions, relationships, or functions a character performs to advance the plot or convey meaning.  See the Detailed Instructions for details and examples.
+			  </li>  
+		  </ul>
+      <p><strong>Evaluation Criteria</strong>: Rate each label according to the following criteria:</p>
+          <ul>
+            <li><strong>Faithfulness:</strong>  Is the character’s label consistent with the text? Does the label factually align with how the character is portrayed?
+              <ul>
+                <li>Yes</li>
+                <li>No</li>
+              </ul>
+            </li>
+            <li><strong>Relevance:</strong> Does the label capture an important aspect about the character’s role in the text? Does it represent the most salient information of their portrayal?
+              <ul>
+                <li>1 - not relevant</li>
+                <li>2 - somewhat relevant</li>
+                <li>3 - very relevant</li>
+              </ul>
+            </li>
+            <li><strong>Informativeness:</strong>  Does the label provide useful information about the character’s identity? Would it help you predict how they will behave in future situations?
+              <ul>
+                <li>1 - not informative</li>
+                <li>2 - somewhat informative</li>
+                <li>3 - very informative</li>
+              </ul>
+            </li>
+            <li><strong>Generalizability:</strong> How easily could the label be applied to characters in other news stories? Does the label generalize well to characters in other news stories, even ones with a different topic? <br>*Here, a news topic might include Politics, Sports, Business, Science, Music, Arts, etc.
+              <ul>
+                <li>1 - not generalizable</li>
+                <li>2 - somewhat generalizable</li>
+                <li>3 - very generalizable</li>
+              </ul>
+            </li>
+          </ul>
+        </li>
+      <p>
+		  Different articles have different lengths and therefore completing different tasks will take you different amounts of time. We've calibrated the pay per HIT based on the average length of time it'll take.
+		  </p>
+		  <p>
+        <b>Please read the articles to understand them well</b>, and <b>reply with thought and reflection</b>.
+		  </p>
+      <p>
+        <strong>VERY IMPORTANTLY</strong>: the texts are drawn from real-life and you may already be familiar with some of the characters or have preconceived notions about them. Please note that <strong>your goal is to identify the best labels for the character as they are depicted by the author of the text</strong>, and NOT by how you view them already. For example, if one of the characters is Donald Trump or Joe Biden, treat them as if you are encountering them for the first time, and do NOT let your pre-existing opinions about the characters influence your choice of label. See the examples in the Instructions tab for more details.
+      </p>
+		  <p>
+        Some questions are "trap" questions, and are meant to indicate to us that you have adequately read and understood the stories. If you have read and understood each story, the answers will be straighforward. Please answer the questions honestly and note that your answers may be rejected if they are not satisfactory. 
+		  </p>
+	  </p>
+    <h2>Text</h2>
+	  <img src="https://drive.google.com/thumbnail?id=${drive_image_id}&sz=w1000">
+  </div>
+
+  <div>
+    <h3>For all questions, the labels apply to: <strong>${character}</strong></h3>
+  </div>
+
+  <div id="ranking">
+    <h2>A) Label Ranking</h2>
+    	<p>Rank the labels from best (1) to worst (5) for the given character. Remember to <strong>identify the best labels for the character based on how they are depicted in the text</strong>, NOT by how you view them already.</p>
+      <p><strong>IMPORTANT</strong>: If two or more labels are the same, DO NOT rank them the same (the system won't let you submit). Instead, rank them consecutively. E.g. if "victim" occurs twice, you can label it as 1 and 2, 2 and 3, 3 and 4, or 4 and 5, but not as both 1 (both 2, etc.) and not as 1 and 3, 2 and 4, or numbers that don't follow each other. <strong>Your answers will be rejected if you do not follow this.</strong></p>
+      <p>Character: <strong>${character}</strong></p>
+    <div id="ranking_group">
+      <ul>
+        <li>  
+          <div class="custom-select" style="width:300px;"> 
+            <select name='human_ranking' id="human_ranking">
+              <option value="0">Ranking:</option>
+              <option value="1">1</option>
+              <option value="2">2</option>
+              <option value="3">3</option>
+              <option value="4">4</option>
+              <option value="5">5</option>
+            </select> ${human_label}
+          </div>
+        </li>
+        <li>
+          <div class="custom-select" style="width:300px;">
+            <select name='gpt_ranking' id="gpt_ranking">
+              <option value="0">Ranking:</option>
+              <option value="1">1</option>
+              <option value="2">2</option>
+              <option value="3">3</option>
+              <option value="4">4</option>
+              <option value="5">5</option>
+            </select> ${gpt_label}
+          </div>
+        </li>
+        <li>
+          <div class="custom-select" style="width:300px;">
+            <select name='claude_ranking' id="claude_ranking">
+              <option value="0">Ranking:</option>
+              <option value="1">1</option>
+              <option value="2">2</option>
+              <option value="3">3</option>
+              <option value="4">4</option>
+              <option value="5">5</option>
+            </select> ${claude_label}
+          </div>
+        </li>
+        <li>
+          <div class="custom-select" style="width:300px;">
+            <select name='llama_ranking' id="llama_ranking">
+              <option value="0">Ranking:</option>
+              <option value="1">1</option>
+              <option value="2">2</option>
+              <option value="3">3</option>
+              <option value="4">4</option>
+              <option value="5">5</option>
+            </select> ${llama_label}
+          </div>
+        </li>
+        <li>
+          <div class="custom-select" style="width:300px;">
+            <select name='random_ranking' id="random_ranking">
+              <option value="0">Ranking:</option>
+              <option value="1">1</option>
+              <option value="2">2</option>
+              <option value="3">3</option>
+              <option value="4">4</option>
+              <option value="5">5</option>
+            </select> ${random_label}
+          </div>
+        </li>
+      </ul> 
+    </div>
+  </div>
+
+  <div id='rating'>
+    <h2>B) Label Evaluation</h2>
+    <p>
+      For each category, evaluate the labels individually. Remember to <strong>evaluate the labels based on how the character is depicted in the text</strong>, NOT by how you view them already.
+    </p>
+    <p>
+      <strong>IMPORTANT</strong>: If two or more labels are the same, rate them the same. <strong>Your answers will be rejected if you do not follow this.</strong>
+    </p>
+
+    <p>Character: <strong>${character}</strong></p>
+
+    <div>
+      <h3>1) Faithfulness</h3>
+      <p>&emsp;Is the character’s label consistent with the text? Does the label factually align with how the character is portrayed?</p>
+    </div>
+    <div id="faithfulness_group">
+
+      <div>
+        <li><strong>${human_label}</strong></li>
+        <p>&emsp;
+        <input type="radio" id="human__faithfulness_1" name="human__faithfulness" value=1 required>
+        <label for="human__faithfulness_1">Yes</label>
+        <input type="radio" id="human__faithfulness_0" name="human__faithfulness" value=0>
+        <label for="human__faithfulness_0">No</label>
+        </p>
+      </div>
+
+      <div>
+        <li><strong>${gpt_label}</strong></li>
+        <p>&emsp;
+        <input type="radio" id="gpt__faithfulness_1" name="gpt__faithfulness" value=1 required>
+        <label for="gpt__faithfulness_1">Yes</label>
+        <input type="radio" id="gpt__faithfulness_0" name="gpt__faithfulness" value=0>
+        <label for="gpt__faithfulness_0">No</label>
+        </p>
+      </div>
+
+      <div>
+        <li><strong>${claude_label}</strong></li>
+        <p>&emsp;
+        <input type="radio" id="claude__faithfulness_1" name="claude__faithfulness" value=1 required>
+        <label for="claude__faithfulness_1">Yes</label>
+        <input type="radio" id="claude__faithfulness_0" name="claude__faithfulness" value=0>
+        <label for="claude__faithfulness_0">No</label>
+        </p>
+      </div>
+
+      <div>
+        <li><strong>${llama_label}</strong></li>
+        <p>&emsp;
+        <input type="radio" id="llama__faithfulness_1" name="llama__faithfulness" value=1 required>
+        <label for="llama__faithfulness_1">Yes</label>
+        <input type="radio" id="llama__faithfulness_0" name="llama__faithfulness" value=0>
+        <label for="llama__faithfulness_0">No</label>
+        </p>
+      </div>
+
+      <div>
+        <li><strong>${random_label}</strong></li>
+        <p>&emsp;
+        <input type="radio" id="random__faithfulness_1" name="random__faithfulness" value=1 required>
+        <label for="random__faithfulness_1">Yes</label>
+        <input type="radio" id="random__faithfulness_0" name="random__faithfulness" value=0>
+        <label for="random__faithfulness_0">No</label>
+        </p>
+      </div>
+
+    </div>
+
+    <div>
+      <h3>2) Relevance</h3>
+      <p>&emsp;Does the label capture the most important aspect of the character’s role in the text? Does it represent the most salient information of their protrayal?</p>
+    </div>
+    <div id="relevance_group">
+
+      <div>
+        <li><strong>${human_label}</strong></li>
+        <p>&emsp;
+        <input type="radio" id="human__relevance_1" name="human__relevance" value=1 required>
+        <label for="human__relevance_1">1 - not relevant</label>
+        <input type="radio" id="human__relevance_2" name="human__relevance" value=2>
+        <label for="human__relevance_2">2 - somewhat relevant</label>
+        <input type="radio" id="human__relevance_3" name="human__relevance" value=3>
+        <label for="human__relevance_3">3 - very relevant</label>
+        </p>
+      </div>
+
+      <div>
+        <li><strong>${gpt_label}</strong></li>
+        <p>&emsp;
+        <input type="radio" id="gpt__relevance_1" name="gpt__relevance" value=1 required>
+        <label for="gpt__relevance_1">1 - not relevant</label>
+        <input type="radio" id="gpt__relevance_2" name="gpt__relevance" value=2>
+        <label for="gpt__relevance_2">2 - somewhat relevant</label>
+        <input type="radio" id="gpt__relevance_3" name="gpt__relevance" value=3>
+        <label for="gpt__relevance_3">3 - very relevant</label>
+        </p>
+      </div>
+
+      <div>
+        <li><strong>${claude_label}</strong></li>
+        <p>&emsp;
+        <input type="radio" id="claude__relevance_1" name="claude__relevance" value=1 required>
+        <label for="claude__relevance_1">1 - not relevant</label>
+        <input type="radio" id="claude__relevance_2" name="claude__relevance" value=2>
+        <label for="claude__relevance_2">2 - somewhat relevant</label>
+        <input type="radio" id="claude__relevance_3" name="claude__relevance" value=3>
+        <label for="claude__relevance_3">3 - very relevant</label>
+        </p>
+      </div>
+
+      <div>
+        <li><strong>${llama_label}</strong></li>
+        <p>&emsp;
+        <input type="radio" id="llama__relevance_1" name="llama__relevance" value=1 required>
+        <label for="llama__relevance_1">1 - not relevant</label>
+        <input type="radio" id="llama__relevance_2" name="llama__relevance" value=2>
+        <label for="llama__relevance_2">2 - somewhat relevant</label>
+        <input type="radio" id="llama__relevance_3" name="llama__relevance" value=3>
+        <label for="llama__relevance_3">3 - very relevant</label>
+        </p>
+      </div>
+
+      <div>
+        <li><strong>${random_label}</strong></li>
+        <p>&emsp;
+        <input type="radio" id="random__relevance_1" name="random__relevance" value=1 required>
+        <label for="random__relevance_1">1 - not relevant</label>
+        <input type="radio" id="random__relevance_2" name="random__relevance" value=2>
+        <label for="random__relevance_2">2 - somewhat relevant</label>
+        <input type="radio" id="random__relevance_3" name="random__relevance" value=3>
+        <label for="random__relevance_3">3 - very relevant</label>
+        </p>
+      </div>
+
+    </div>
+
+    <div>
+      <h3>3) Informativeness</h3>
+      <p>&emsp;Does it provide useful information about the character’s identity? Would it help you predict how they will behave in future situations?</p>
+    </div>
+    <div id="informativeness_group">
+
+      <div>
+        <li><strong>${human_label}</strong></li>
+        <p>&emsp;
+        <input type="radio" id="human__informativeness_1" name="human__informativeness" value=1 required>
+        <label for="human__informativeness_1">1 - not informative</label>
+        <input type="radio" id="human__informativeness_2" name="human__informativeness" value=2>
+        <label for="human__informativeness_2">2 - somewhat informative</label>
+        <input type="radio" id="human__informativeness_3" name="human__informativeness" value=3>
+        <label for="human__informativeness_3">3 - very informative</label>
+        </p>
+      </div>
+
+      <div>
+        <li><strong>${gpt_label}</strong></li>
+        <p>&emsp;
+        <input type="radio" id="gpt__informativeness_1" name="gpt__informativeness" value=1 required>
+        <label for="gpt__informativeness_1">1 - not informative</label>
+        <input type="radio" id="gpt__informativeness_2" name="gpt__informativeness" value=2>
+        <label for="gpt__informativeness_2">2 - somewhat informative</label>
+        <input type="radio" id="gpt__informativeness_3" name="gpt__informativeness" value=3>
+        <label for="gpt__informativeness_3">3 - very informative</label>
+        </p>
+      </div>
+
+      <div>
+        <li><strong>${claude_label}</strong></li>
+        <p>&emsp;
+        <input type="radio" id="claude__informativeness_1" name="claude__informativeness" value=1 required>
+        <label for="claude__informativeness_1">1 - not informative</label>
+        <input type="radio" id="claude__informativeness_2" name="claude__informativeness" value=2>
+        <label for="claude__informativeness_2">2 - somewhat informative</label>
+        <input type="radio" id="claude__informativeness_3" name="claude__informativeness" value=3>
+        <label for="claude__informativeness_3">3 - very informative</label>
+        </p>
+      </div>
+
+      <div>
+        <li><strong>${llama_label}</strong></li>
+        <p>&emsp;
+        <input type="radio" id="llama__informativeness_1" name="llama__informativeness" value=1 required>
+        <label for="llama__informativeness_1">1 - not informative</label>
+        <input type="radio" id="llama__informativeness_2" name="llama__informativeness" value=2>
+        <label for="llama__informativeness_2">2 - somewhat informative</label>
+        <input type="radio" id="llama__informativeness_3" name="llama__informativeness" value=3>
+        <label for="llama__informativeness_3">3 - very informative</label>
+        </p>
+      </div>
+
+      <div>
+        <li><strong>${random_label}</strong></li>
+        <p>&emsp;
+        <input type="radio" id="random__informativeness_1" name="random__informativeness" value=1 required>
+        <label for="random__informativeness_1">1 - not informative</label>
+        <input type="radio" id="random__informativeness_2" name="random__informativeness" value=2>
+        <label for="random__informativeness_2">2 - somewhat informative</label>
+        <input type="radio" id="random__informativeness_3" name="random__informativeness" value=3>
+        <label for="random__informativeness_3">3 - very informative</label>
+        </p>
+      </div>
+
+    </div>
+
+    <div>
+      <h3>4) Generalizability</h3>
+      <p>&emsp;How easily could the label be applied to characters in other news stories? Does the label generalize well to characters in other news stories or other news topics?</p>
+    </div>
+    <div id="generalizability_group">
+
+      <div>
+        <li><strong>${human_label}</strong></li>
+        <p>&emsp;
+        <input type="radio" id="human__generalizability_1" name="human__generalizability" value=1 required>
+        <label for="human__generalizability_1">1 - not generalizable</label>
+        <input type="radio" id="human__generalizability_2" name="human__generalizability" value=2>
+        <label for="human__generalizability_2">2 - somewhat generalizable</label>
+        <input type="radio" id="human__generalizability_3" name="human__generalizability" value=3>
+        <label for="human__generalizability_3">3 - very generalizable</label>
+        </p>
+      </div>
+
+      <div>
+        <li><strong>${gpt_label}</strong></li>
+        <p>&emsp;
+        <input type="radio" id="gpt__generalizability_1" name="gpt__generalizability" value=1 required>
+        <label for="gpt__generalizability_1">1 - not generalizable</label>
+        <input type="radio" id="gpt__generalizability_2" name="gpt__generalizability" value=2>
+        <label for="gpt__generalizability_2">2 - somewhat generalizable</label>
+        <input type="radio" id="gpt__generalizability_3" name="gpt__generalizability" value=3>
+        <label for="gpt__generalizability_3">3 - very generalizable</label>
+        </p>
+      </div>
+
+      <div>
+        <li><strong>${claude_label}</strong></li>
+        <p>&emsp;
+        <input type="radio" id="claude__generalizability_1" name="claude__generalizability" value=1 required>
+        <label for="claude__generalizability_1">1 - not generalizable</label>
+        <input type="radio" id="claude__generalizability_2" name="claude__generalizability" value=2>
+        <label for="claude__generalizability_2">2 - somewhat generalizable</label>
+        <input type="radio" id="claude__generalizability_3" name="claude__generalizability" value=3>
+        <label for="claude__generalizability_3">3 - very generalizable</label>
+        </p>
+      </div>
+
+      <div>
+        <li><strong>${llama_label}</strong></li>
+        <p>&emsp;
+        <input type="radio" id="llama__generalizability_1" name="llama__generalizability" value=1 required>
+        <label for="llama__generalizability_1">1 - not generalizable</label>
+        <input type="radio" id="llama__generalizability_2" name="llama__generalizability" value=2>
+        <label for="llama__generalizability_2">2 - somewhat generalizable</label>
+        <input type="radio" id="llama__generalizability_3" name="llama__generalizability" value=3>
+        <label for="llama__generalizability_3">3 - very generalizable</label>
+        </p>
+      </div>
+
+      <div>
+        <li><strong>${random_label}</strong></li>
+        <p>&emsp;
+        <input type="radio" id="random__generalizability_1" name="random__generalizability" value=1 required>
+        <label for="random__generalizability_1">1 - not generalizable</label>
+        <input type="radio" id="random__generalizability_2" name="random__generalizability" value=2>
+        <label for="random__generalizability_2">2 - somewhat generalizable</label>
+        <input type="radio" id="random__generalizability_3" name="random__generalizability" value=3>
+        <label for="random__generalizability_3">3 - very generalizable</label>
+        </p>
+      </div>
+
+    </div>
+
+  </div>
+
+</crowd-form>
+
+<script>
+
+  // check if the rankings are filled-out and all different
+  function checkRanking() {
+    // Get all select elements within the #ranking_group div
+    const selects = document.querySelectorAll('#ranking_group select');
+
+    // Create an array to hold the values from each select element
+    const values = Array.from(selects).map(select => parseInt(select.value));
+
+    // Sort the values array
+    values.sort((a, b) => a - b);
+
+    // Check if the sorted array is equal to [1, 2, 3, 4, 5]
+    const isValid = JSON.stringify(values) === JSON.stringify([1, 2, 3, 4, 5]);
+
+    return isValid;  // Returns true if the ranking is correct, false otherwise
+  }
+
+  // shuffle the label options
+  function shuffleLabels() {
+    // Get the <ul> element
+    const ul = document.querySelector("#ranking_group ul");
+
+    // Extract <li> elements along with their names
+    const items = Array.from(ul.children).map((li, index) => ({
+      element: li,
+      name: li.textContent.trim(), // Use textContent or any unique identifier in the <li>
+      index: index, // Original order (optional, for debugging or reuse)
+    }));
+
+    for (let i = items.length - 1; i > 0; i--) {
+      const j = Math.floor(Math.random() * (i + 1));
+      [items[i], items[j]] = [items[j], items[i]];
+    }
+
+    // Shuffle the array using Fisher-Yates algorithm
+    for (let i = items.length - 1; i > 0; i--) {
+      const j = Math.floor(Math.random() * (i + 1));
+      [items[i], items[j]] = [items[j], items[i]];
+    }
+
+    // Clear the current <ul> content
+    ul.innerHTML = "";
+
+    // Append the shuffled items back into the <ul>
+    items.forEach(item => ul.appendChild(item.element));
+
+    // Return the shuffled names for reuse
+    return items.map(item => item.element.innerText.trim());
+  }
+
+  // Shuffle the labels and get the shuffled order
+  const labelOrder = shuffleLabels();
+
+  // Re-order the evaluation divs to display labels in the shuffled order
+  function reorderDivs(order, div_id) {
+    // Get the parent container with the specific ID
+    const container = document.getElementById(div_id);
+
+    // Get all <div> children of the container
+    const divs = Array.from(container.children);
+
+    // Create a map of <div>s keyed by their <span> content
+    const divMap = divs.reduce((map, div) => {
+      const p = div.querySelector("li");
+      if (p) {
+        map[p.textContent.trim()] = div;
+      }
+      return map;
+    }, {});
+
+    // Reorder the divs based on the desired order
+    const sortedDivs = order.map(label => divMap[label]);
+
+    // Append the sorted <div> elements back into the container
+    sortedDivs.forEach(div => {
+      if (div) container.appendChild(div); // Check if div exists for safety
+    });
+  }
+
+  // Re-order the evaluation divs
+  div_ids = ['faithfulness_group', 'relevance_group', 'informativeness_group', 'generalizability_group'];
+  // Call the function to reorder the divs
+  for (let i = 0; i < div_ids.length; i++) {
+    reorderDivs(labelOrder, div_ids[i]);
+  }
+
+  // Push submit routine
+  document.querySelector('crowd-form').onsubmit = function(e) {
+
+    if (!checkRanking()){
+      e.preventDefault();
+      alert("You forgot to fill-in a ranking! Or two of your rankings are the same (no ties are allowed)!");
+      return ;
+    };
+  }
+</script>
+
+</body>
+
+</html>
