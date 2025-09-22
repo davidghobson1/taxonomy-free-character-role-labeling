@@ -1,0 +1,353 @@
+<html>
+	<head>
+		<title>HIT</title>
+		<meta http-equiv="Content-Type" content="text/html; charset=UTF-8"/>
+	</head>
+
+<body>
+
+<script src="https://assets.crowd.aws/crowd-html-elements.js"></script>
+
+<style>
+  body {
+    padding-right: 50px;
+    padding-left: 50px;
+    margin-bottom: 50px;
+  }
+</style>
+
+<crowd-form>
+
+	<crowd-instructions link-text="View instructions" link-type="button">
+		<short-summary>
+      <p>Rank the given character role labels from the news articles. You will be shown a text, a name of a character, and a list of candidate labels for that character. Rank the labels from best to worst (best = 1, worst = 4) in terms of their appropriateness for the character in the text. In some cases the options may be very similar or even identical, and some of the choices may be quite subjective. Use your best judgment to rank them as best you can.</p>
+      <p><strong>VERY IMPORTANTLY</strong>: the texts are drawn from real-life news and so you may already be familiar with some of the characters or have preconceived notions about them. Please note: <strong>your goal is to identify the best labels for the character <i>as they are depicted by the text</i></strong>, and NOT by how you view them already. For example, if one of the characters is Donald Trump or Kamala Harris, treat them as if you are encountering them for the first time, and do NOT let your pre-existing opinions about the characters influence your choice of label.</p>
+      Please see the Detailed Instructions tab for how to determine what labels are good vs. bad.
+		</short-summary>
+		
+		<detailed-instructions>
+		  <p>This project aims to evaluate the quality of character role labels within news stories. 
+      
+      Character role labels are general classes of characters that possess similar traits, functions, or patterns of behaviour across different stories. They are similar to character tropes or character archetypes from movies or fairy tales. Specifically, a character role is the purpose a character occupies within a story, and can be defined by the actions, relationships, or functions a character performs to advance the plot or convey meaning.
+      </p>
+      <p>Some examples of character roles for well-known characters include:</p>
+      <ul>
+        <li>
+            <strong>The Sidekick</strong>
+            (Ex. Robin from <em>Batman</em>, Dr. Watson from <em>Sherlock Holmes</em>)
+        </li>
+        <li>
+            <strong>The Grumpy Old Man</strong> 
+            (Ex. Carl from the Pixar movie <em>Up</em>, Ebenezer Scrooge from Charles Dickens’ <em>A Christmas Carol</em>)
+        </li>
+        <li>
+            <strong>The Corrupt (or Ruthless) Business Executive</strong> (Ex. Lex Luthor from <em>Superman</em>, Miranda Priestly from <em>The Devil Wears Prada</em>)
+        </li>
+        <li>
+            <strong>The Reluctant Hero</strong> (Ex. Luke Skywalker from <em>Star Wars</em>, Odysseus from Greek mythology)
+        </li>
+        <li>
+            <strong>The Trickster</strong> (Ex. (Captain) Jack Sparrow from <em>Pirates of the Caribbean</em>, Loki from Norse mythology and Marvel)
+        </li>
+        <li>
+            <strong>The Mentor</strong> (Ex.  Gandalf from <em>The Lord of the Rings</em>, Morpheus from <em>The Matrix</em>)
+        </li>
+    </ul>
+
+    <p>
+    Character roles are meant to be both descriptive and predictive: they allow us to infer who the character is and how they will likely behave. For example, Sidekicks can be expected to help out the main character, and Tricksters will cause trouble but also find clever ways out of trouble.
+    </p>
+    <p>
+    Many character roles are quite general and apply to characters across different genres, but they can also differ in their generality. For instance, “Innocent Victim” is more specific and descriptive than “Victim”, however either can be more appropriate depending on what aspects of victimhood the story emphasizes. 
+    </p>
+    <p>
+    Importantly, character roles are also not mutually exclusive, and can depend on the source story or story genre. Merlin from the stories of King Author can be a Mentor, a Grumpy Old Man, or even a Hero depending on the specific story. 
+    </p>
+    <p>
+    In this project, the goal is to identify good character role labels in news articles from a list of candidate labels. You will be presented with a text, the name of a character, and a list of candidate labels for that character. The task is to rank the character labels from best to worst (1 = best, 4 = worst) according to their appropriateness to the character <i>as depicted in the story</i>.
+    </p>
+    <p>
+    <strong>VERY IMPORTANTLY</strong>: as the texts are drawn from real-life news, you may already be familiar with some of the characters or have preconceived notions about them. Please note that <strong>your goal is to identify the best types for the character as they are depicted by the author of the text</strong>, and NOT by how you view them already. For example, if one of the characters is Donald Trump or Kamala Harris, do your best NOT to let your pre-existing opinions about them influence your choice of label. 
+    </p>
+    <p>
+    For the purposes of this task, treat every character as if you are reading about them for the first time, and imagine the impressions the author wishes to impart on you about this character.
+    </p>
+
+    <div>
+      <p><strong>Some notes about good labels:</strong></p>
+      <ul>
+        <li>
+          Good labels are consistent with the portrayal of the character in the text, and capture an important dimension about them. For instance, an article about Lionel Messi may talk about how he's a great soccer player or possibly about what a great father he is to his children. In those cases, "Elite Athlete" or "Great Dad" are applicable, but one might be more applicable than another in a given article even though both are true.
+        </li>
+        <li>
+          Good labels are descriptive and predictive. We can expect "Great Dad's" to be loving, supportive, and fun. By contrast, "Dad" is not a good label because isn't very descriptive and is quite vague (we don't know what kind of dad the character is and so don't know what to expect from them).
+        </li>
+        <li>
+          Good labels are generalizable and applicable to a broad range of different stories. "Great Dad's" is applicable to many different characters in many different articles. The label "57-year old Dad with a Leopard Tattoo" isn't very applicable to characters in many articles or stories because it is too specific.
+        </li>
+      </ul>
+    </div>
+
+    <div>
+      <p><strong>Some notes about bad labels:</strong></p>
+      <ul>
+        <li>Labels <strong>shouldn't repeat their entity identity</strong>. For example, “Corporation” is not a good character role label, but “Corrupt Corporation” is (or “Visionary Leader” instead of “Leader”).</li>
+        <li>Similarly, because people in the news are often associated with their occupations <strong>it is important that occupations not be confused with roles.</strong> “Lawyer” is not a good role label, but “Hot-shot Lawyer” is because it gives us an idea of the type the lawyer is playing in the story. Role labels can also be more general like "Hero", "Villain", or "Victim" if the story warrants it. </li>
+    </ul>
+    </div>
+
+    <div>
+      <p><strong>Some notes about the ranking:</strong></p>
+      <ul>
+        <li>In some cases, all labels may be appropriate or very similar. Use your best judgment to determine which is best and worst. If two labels are equally applicable, select either one as the better one.</li>
+        <li>You aren't allowed ties in your ranking.</li>
+        <li>If a label appears twice in the list, give them consecutive labels. E.g. if "victim" occurs twice, you can label it as 1 and 2, 2 and 3, or 3 and 4, but not as both 1 (both 2, etc.) and not as 1 and 3, 1 and 4, or 2 and 4. If you do not rank identical labels consecutively, your answers will be rejected.</li>
+        <li>Characters can be individuals but also collective entities like corporations (Exxon), institutions (the Supreme Court), or countries (Russia).</li>
+      </ul>
+    </div>
+    
+    <div>
+    <p><strong>Some notes about the task:</strong></p>
+    <ul>
+		  <li>
+        Some questions are "trap" questions, and are meant to indicate to us that you have adequately read and understood the stories. While many of the questions on this survey are highly subjective and can have many possible answers, the trap questions are designed to be easy. If you have read and understood each story, the answers will be straighforward. Please answer the questions honestly and note that your answers may be rejected if they are not satisfactory.
+		  </li>
+    </ul>
+    </div>
+		</detailed-instructions>
+
+		<positive-example>
+	<p><strong>1)</strong> Text: Amidst his busy schedule, US President Donald Trump went golfing with his son Barron earlier this afternoon. Having spent much of his time lately in the Oval Office, he took to the course with Barron this Sunday to enjoy the nice weather. The two of them played a round together at Trump’s West Palm Beach golf course and enjoyed a private dinner at the club house before returning to Mar-a-Lago. Even as he is busy tackling the country's challenges, Trump is hoping to cultivate a better relationship with his son over the next year.</p>
+		  <p>
+		Character: <strong>Donald Trump</strong>
+			  <ul>
+				  <li>Hardworking Leader - 2</li>
+				  <li>Leader - 3</li>
+				  <li>Liar - 4</li>
+		      <li>Great Dad - 1</li>
+        </ul>
+      </p>
+      <p>
+        The article clearly focuses more on Trump as a father figure than as President, so "Great Dad" is ranked 1 (best). Trump is also depicted as a hardworking leader ("Amidst his busy schedule", "Having spent much of his time lately in the Oval Office") so this is ranked 2. Note that regardless of whether you, personally, think Trump is a hardworking leader in real-life, the article still portrays him this way and that is what we want to find (how does the author portray the character). "Leader" is also correct, but isn't as informative/descriptive as "Hardworking Leader" so it gets rank 3. "Liar" is not implied by the text so the rank is 4.
+      </p>
+      <p><strong>2)</strong> Text: Elon Musk is the Canadian to rule them all. He loves hockey, maple syrup, wears flannel plaid shirts on weekends, and even plans to buy Tim Hortons. Oh, and he’s a smart guy too; started a few tech companies and all that. No big deal.</p>
+		  <p>
+		Character: <strong>Elon Musk</strong>
+			  <ul>
+				  <li>Genius - 2</li>
+				  <li>Tech Mogul - 3</li>
+				  <li>Canadian - 1</li>
+		      <li>Great parent - 4</li>
+        </ul>
+      </p>
+      <p>
+        Note that most of this article is made-up, but we imagine we don't know much about Elon Musk and are reading about him for the first time. Based on that, the article focuses most clearly on Elon as a Canadian. So "Canadian" gets rank 1 (best). The article also says Elon is smart and started some tech companies, so "Genius" and "Tech Mogul" are ranked 2 and 3. "Genius" is maybe slightly better than "Tech Mogul" because the author is using "started a few tech companies" to imply he is smart. "Great parent" is not implied by anything the article says, so gets rank 4 (worst).
+      </p>
+      <p><strong>For a general article</strong></p>
+              <p>
+                Character: <strong>Jack</strong>
+                    <ul>
+                      <li>Victim - 1</li>
+                      <li>Hero - 3</li>
+                      <li>Victim - 2</li>
+                      <li>Villain - 4</li>
+                    </ul>
+                  </p>
+                  <p>
+                    If a label occurs more than once, like "Victim", rank them consecutively like 1 and 2 (or 2 and 3, or 3 and 4) instead of giving them the same ranking.
+                  </p>
+		</positive-example>
+		<negative-example>
+		  <p><strong>See article 1 to the left.</strong></p>
+      <p>
+        Character: <strong>Donald Trump</strong>
+            <ul>
+              <li>Hardworking Leader - 3</li>
+              <li>Leader - 2</li>
+              <li>Liar - 1</li>
+              <li>Great Dad - 4</li>
+            </ul>
+          </p>
+          <p>
+            If you are not a fan of Trump and happen to think he's a liar in real-life and therefore assign this ranking, that's not what we are after. We are not interested in how you view or feel about a character, but how <i>the article</i> depicts them. This article clearly doesn't depict Trump as a liar, so ranking it as 1 is not appropriate. Also, ranking "Leader" above "Hardworking Leader" is also an error, because "Hardworking Leader" is both appropriate given the text and also more descriptive, even though "Leader" is correct too.
+          </p>
+        <p><strong>See article 2 to the left.</strong></p>
+          <p>
+            Character: <strong>Elon Musk</strong>
+                <ul>
+                  <li>Misinformation Speader - 1</li>
+                  <li>Tech Mogul - 2</li>
+                  <li>Canadian - 4</li>
+                  <li>Bad parent - 3</li>
+                </ul>
+              </p>
+              <p>
+                Again, if you use a pre-existing opinion of Elon Musk and say he's a Misinformation Speader, this isn't consistent with the article. The depiction as a Canadian in the article is more central than Tech Mogul, so Canadian should be ranked higher than Tech Mogul.
+              </p>
+            <p><strong>For a general article</strong></p>
+              <p>
+                Character: <strong>Jack</strong>
+                    <ul>
+                      <li>Victim - 1</li>
+                      <li>Hero - 2</li>
+                      <li>Victim - 3</li>
+                      <li>Villain - 4</li>
+                    </ul>
+                  </p>
+                  <p>
+                    A label ("Victim") appears more than once, but the rankings 1 and 3 are not consecutive. This will result in rejection.
+                  </p>
+		</negative-example>
+  </crowd-instructions>
+
+  <div>
+	  <h2>Instructions</h2>
+	  <p>
+		  This task is about <i>understanding characters</i> in news articles. You will be given a news article, a character from that article, and a list of <i>character role labels</i> for that character. See below for a definition. You will be asked to <strong>rank</strong> the labels from best to worst (best = 1, worst = 4). In some cases, the options may be identical or very similar, and the choices may be quite subjective. Use your best judgment to rank them. </p>
+		  <ul>
+			  <li>
+				  <b>Character Role Label</b>: a general class of characters that possess similar traits, functions, or patterns of behaviour across different stories. Examples include, <i>Sidekick</i>, <i>Grumpy Old Man</i>, <i>Corrupt Business Executive</i>, etc. Character roles encompass the purpose a character occupies within a story and can be defined by the actions, relationships, or functions a character performs to advance the plot or convey meaning.  See the Detailed Instructions for details and examples.
+			  </li>  
+		  </ul>
+		  Different articles have different lengths and therefore completing different tasks will take you different amounts of time. We've calibrated the pay per HIT based on the average length of time it'll take.
+		  </p>
+		  <p>
+		  <b>Please read the articles to understand them well</b>, and <b>reply with thought and reflection</b>.
+		  </p>
+      <p>
+        <strong>VERY IMPORTANTLY</strong>: the texts are drawn from real-life and you may already be familiar with some of the characters or have preconceived notions about them. Please note that <strong>your goal is to identify the best types for the character as they are depicted by the author of the text</strong>, and NOT by how you view them already. For example, if one of the characters is Donald Trump or Kamala Harris, treat them as if you are encountering them for the first time, and do NOT let your pre-existing opinions about the characters influence your choice of label. See the examples in the Instructions tab for more details.
+      </p>
+      <p>
+      Some questions are "trap" questions, and are meant to indicate to us that you have adequately read and understood the stories. If you have read and understood each story, the answers will be straighforward. Please answer the questions honestly and note that your answers may be rejected if they are not satisfactory. 
+      </p>
+	  </p>
+    <h2>Text</h2>
+	  <img src="https://drive.google.com/thumbnail?id=${drive_image_id}&sz=w1000">
+  </div>
+
+  <div id="ranking">
+    <h2>Label Ranking</h2>
+    	<p>Rank the labels from best (1) to worst (4) for the given character below. Remember to <strong>identify the best labels for the character based on how they are portrayed in the text</strong>, NOT by how you view them already.</p>
+      <p><strong>IMPORTANT</strong>: If 2 labels are the same, DO NOT rank them the same (the system won't let you submit). Instead, rank them consecutively. E.g. if "victim" occurs twice, you can label it as 1 and 2, 2 and 3, or 3 and 4, but not as both 1 (both 2, etc.) and not as 1 and 3, 1 and 4, or 2 and 4.</p>
+      <p>Character: <strong>${char}</strong></p>
+    <div id="ranking_group">
+      <ul>
+        <li>  
+          <div class="custom-select"> 
+            <select name='zero_shot' id="zero_shot__ranking">
+              <option value="0">Ranking:</option>
+              <option value="1">1</option>
+              <option value="2">2</option>
+              <option value="3">3</option>
+              <option value="4">4</option>
+            </select> ${zero_shot}
+          </div>
+        </li>
+        <li>
+          <div class="custom-select">
+            <select name='concept_induction' id="concept_induction__ranking">
+              <option value="0">Ranking:</option>
+              <option value="1">1</option>
+              <option value="2">2</option>
+              <option value="3">3</option>
+              <option value="4">4</option>
+            </select> ${concept_induction}
+          </div>
+        </li>
+        <li>
+          <div class="custom-select">
+            <select name='character_summary' id="character_summary__ranking">
+              <option value="0">Ranking:</option>
+              <option value="1">1</option>
+              <option value="2">2</option>
+              <option value="3">3</option>
+              <option value="4">4</option>
+            </select> ${character_summary}
+          </div>
+        </li>
+        <li>
+          <div class="custom-select">
+            <select name='random' id="random__ranking">
+              <option value="0">Ranking:</option>
+              <option value="1">1</option>
+              <option value="2">2</option>
+              <option value="3">3</option>
+              <option value="4">4</option>
+            </select> ${random}
+          </div>
+        </li>
+      </ul> 
+    </div>
+  </div>
+
+</crowd-form>
+
+<script>
+
+  // check if the rankings are filled-out and all different
+  function checkRanking() {
+    // Get all select elements within the #ranking_group div
+    const selects = document.querySelectorAll('#ranking_group select');
+
+    // Create an array to hold the values from each select element
+    const values = Array.from(selects).map(select => parseInt(select.value));
+
+    // Sort the values array
+    values.sort((a, b) => a - b);
+
+    // Check if the sorted array is equal to [1, 2, 3, 4]
+    const isValid = JSON.stringify(values) === JSON.stringify([1, 2, 3, 4]);
+
+    return isValid;  // Returns true if the ranking is correct, false otherwise
+  }
+
+  // shuffle the label options
+  function shuffleLabels() {
+    // Get the <ul> element
+    const ul = document.querySelector("#ranking_group ul");
+
+    // Extract <li> elements along with their names
+    const items = Array.from(ul.children).map((li, index) => ({
+      element: li,
+      name: li.textContent.trim(), // Use textContent or any unique identifier in the <li>
+      index: index, // Original order (optional, for debugging or reuse)
+    }));
+
+    for (let i = items.length - 1; i > 0; i--) {
+      const j = Math.floor(Math.random() * (i + 1));
+      [items[i], items[j]] = [items[j], items[i]];
+    }
+
+    // Shuffle the array using Fisher-Yates algorithm
+    for (let i = items.length - 1; i > 0; i--) {
+      const j = Math.floor(Math.random() * (i + 1));
+      [items[i], items[j]] = [items[j], items[i]];
+    }
+
+    // Clear the current <ul> content
+    ul.innerHTML = "";
+
+    // Append the shuffled items back into the <ul>
+    items.forEach(item => ul.appendChild(item.element));
+
+    // Return the shuffled names for reuse
+    return items.map(item => item.element.innerText.trim());
+  }
+
+  // Shuffle the labels and get the shuffled order
+  const labelOrder = shuffleLabels();
+
+  // Push submit routine
+  document.querySelector('crowd-form').onsubmit = function(e) {
+
+    if (!checkRanking()){
+      e.preventDefault();
+      alert("You forgot to fill-in a ranking! Or two of your rankings are the same (no ties are allowed)!");
+      return ;
+    };
+  }
+</script>
+
+</body>
+
+</html>

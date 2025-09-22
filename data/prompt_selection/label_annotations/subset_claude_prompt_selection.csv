@@ -1,0 +1,77 @@
+orig_index,llm,char,main_character,zero_shot,character_summary,concept_induction
+51140,claude,Myanmar,True,Battleground,Battleground,Puppet state
+51140,claude,China,True,Powerbroker,Power broker,Puppet master
+51140,claude,Myanmar's military,False,Weakened ruler,Usurper,Usurper
+51140,claude,Three Brotherhood Alliance,False,Insurgent force,Insurgent,Insurgent
+27567,claude,China,True,Fence-sitter,Cautious powerbroker,Cautious powerbroker
+27567,claude,Russia,True,Conspirator,Desperate dealmaker,Desperate ally
+27567,claude,North Korea,False,Rogue,Opportunistic supplier,Opportunistic partner
+18042,claude,Amanda Pritchard,True,Optimist,Spokesperson,Optimist
+18042,claude,Professor Peter Johnson,True,Cheerleader,Expert,Enthusiast
+18042,claude,PwC,False,Downsizer,Downsizer,Downsizer
+18042,claude,Duke and Duchess of Sussex,False,Hypocrite,Hypocrite,Hypocrite
+50842,claude,Sultan Al Jaber,True,Defendant,Embattled figurehead,Embattled defender
+50842,claude,ADNOC,True,Dealmaker,Corporate powerbroker,Opportunist
+50842,claude,Christiana Figueres,False,Accuser,Whistleblower,Whistleblower
+50842,claude,Centre for Climate Reporting,False,Whistleblower,Watchdog,Exposer
+6580,claude,Yossi Sneider,True,Witness,Witness,Witness
+6580,claude,Shiri Bib,True,Victim,Victim,Victim
+6580,claude,Kfir,False,Hostage,Innocent,Hostage
+6580,claude,Margit Silverman,False,Casualty,Casualty,Patient
+13651,claude,Palestinian families,True,Refugee,Refugee,Refugee
+13651,claude,Doctors in Gaza,True,Survivor,Hero,Hero
+13651,claude,Ashraf al-Qudra,False,Messenger,Messenger,Whistleblower
+13651,claude,Palestinian Red Crescent Society,False,Protector,Protector,Protector
+22775,claude,Alexander De Croo,True,Mediator,Mediator,Diplomatic critic
+22775,claude,Petra De Sutter,True,Challenger,Humanitarian,Humanitarian voice
+22775,claude,Abdalrahim al-Farra,False,Witness,Victim-advocate,Victim advocate
+22775,claude,Anuna De Wever Van der Heyden,False,Advocate,Critic,Political analyst
+47930,claude,Miguel Díaz-Canel,True,Champion,Rally leader,Solidarity champion
+47930,claude,Palestinian people,True,Victim,Victim,Victim
+47930,claude,Cuba,False,Ally,Host ally,Ally
+47930,claude,Yanquiel Cardoso,False,Advocate,Supporter,Sympathizer
+17006,claude,International Labour Organization,True,Monitor,Monitor,Monitor
+17006,claude,Gaza,True,Victim,Victim,Victim
+17006,claude,Ruba Jaradat,False,Advocate,Advocate,Advocate
+17006,claude,Israel,False,Enforcer,Enforcer,Enforcer
+19382,claude,Japanese nationals,True,Victim,Suspect,Scam suspect
+19382,claude,Cambodian government,True,Enforcer,Enforcer,Enforcer
+19382,claude,U.N. Human Rights Office,False,Watchdog,Whistleblower,Watchdog
+19382,claude,Japanese government,False,Protector,Informant,Collaborator
+45635,claude,Dilan Yesilgöz,True,Successor,Trailblazer,Reformer
+45635,claude,Geert Wilders,True,Firebrand,Firebrand,Compromiser
+45635,claude,Mark Rutte,False,Veteran,Caretaker,Incumbent
+45635,claude,Pieter Omtzigt,False,Kingmaker,Powerbroker,Powerbroker
+19908,claude,Asaduddin Owaisi,True,Critic,Critic,Minority advocate
+19908,claude,Narendra Modi,True,Campaigner,Campaigner,Reformist challenger
+19908,claude,BRS,False,Dynasty,Dynasty,Dynasty
+19908,claude,Telangana,False,Battleground,Battleground,Battleground
+29339,claude,Virat Kohli,True,Icon,Trailblazer,Champion
+29339,claude,Anushka Sharma,True,Influencer,Pillar,Pillar
+29339,claude,Basu Shanker,False,Mentor,Mentor,Pioneer
+29339,claude,Sachin Tendulkar,False,Legend,Legend,Icon
+6896,claude,Andrew Wilkinson,True,Victim,Victim,Victim
+6896,claude,Pedro Argote,True,Assailant,Avenger,Perpetrator
+46496,claude,Sensifi,True,Innovator,Innovator,Innovator
+46496,claude,Modi Peled,True,Visionary,Visionary,Whistleblower
+46496,claude,Scentian Bio,False,Pioneer,Pioneer,Pioneer
+46496,claude,Adrian Kostrz,False,Experimenter,Expert,Expert
+21208,claude,Homer Simpson,True,Bungler,Foolish schemer,Opportunist
+21208,claude,Bart Simpson,True,Commodity,Unwitting victim,Victim
+21208,claude,Taylor Whitley,False,Victim,Opportunist,Unfortunate
+21208,claude,Adam (Little Fish),False,Opportunist,True believer,Speculator
+47059,claude,Vladimir Putin,True,Peacemaker,Peacemaker-in-disguise,Aggressor-in-denial
+47059,claude,G20 Leaders,True,Audience,Skeptical audience,Moral witness
+47059,claude,Ukraine,False,Adversary,Alleged aggressor,Contested victim
+4768,claude,Killnet,True,Vigilante,Cyber aggressor,Cyber aggressor
+4768,claude,British Royal Family,True,Target,Cyber target,Target
+4768,claude,Prince Andrew,False,Villain,Accused villain,Disgraced figure
+4768,claude,King Charles III,False,Champion,Moral crusader,Moral voice
+25055,claude,United Arab Emirates,True,Mediator,Mediator,Mediator
+25055,claude,Israel,True,Aggressor,Aggressor,Aggressor
+25055,claude,Qatar,False,Negotiator,Peacebroker,Peacemaker
+25055,claude,Hamas,False,Insurgent,Insurgent,Insurgent
+46083,claude,Imran Khan,True,Victim,Fallen hero,Persecuted dissident
+46083,claude,Pakistan's Supreme Court,True,Gatekeeper,Gatekeeper,Gatekeeper
+46083,claude,Abuzar Salman Niazi,False,Analyst,Interpreter,Skeptic
+46083,claude,Basil Nabi Malik,False,Skeptic,Skeptic,Naysayer

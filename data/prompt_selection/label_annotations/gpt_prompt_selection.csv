@@ -1,0 +1,234 @@
+orig_index,llm,char,main_character,zero_shot,character_summary,concept_induction
+27555,gpt,Iran,True,Executioner,Executioner,Executioner
+27555,gpt,Revolutionary Guard,True,Victim,Victim,Victim
+27555,gpt,Hassan Rouhani,False,Condemner,Condemner,Condemner
+27555,gpt,Sistan-Baluchistan province,False,Conflict zone,Conflict zone,Conflict zone
+48523,gpt,Javier Milei,True,Provocateur,Provocateur,Firebrand
+48523,gpt,Argentina,True,Battleground,Struggler,Nation in flux
+48523,gpt,Libertad Avanza,False,Disruptor,Disruptor,Political challenger
+48523,gpt,China,False,Cautious partner,Influencer,Cautious partner
+51140,gpt,Myanmar,True,Battleground,Conflict zone,Conflict zone
+51140,gpt,China,True,Influencer,Mediator,Mediator
+51140,gpt,Myanmar's military,False,Regime,Oppressor,Regime
+51140,gpt,Three Brotherhood Alliance,False,Rebel,Rebel,Rebel
+20356,gpt,India,True,Beneficiary,Beneficiary,Beneficiary
+20356,gpt,Russia,True,Supplier,Supplier,Supplier
+20356,gpt,Wistron,False,Acquisition target,Acquisition target,Acquisition target
+20356,gpt,Burman family,False,Controversial acquirer,Contender,Accused
+22452,gpt,Myanmar's military,True,Oppressor,Oppressor,Oppressor
+22452,gpt,Three Brotherhood Alliance,True,Resistance,Rebel,Rebel
+22452,gpt,Myint Swe,False,Caretaker,Figurehead,Figurehead
+22452,gpt,United Nations,False,Mediator,Observer,Observer
+27567,gpt,China,True,Strategist,Balancer,Balancer
+27567,gpt,Russia,True,Opportunist,Aggressor,Supplier
+27567,gpt,North Korea,False,Wildcard,Instigator,Opportunist
+7868,gpt,U.S. Fish and Wildlife Service,True,Conservation advocate,Conservation advocate,Conservator
+7868,gpt,Martha Williams,True,Protector,Conservation leader,Advocate
+7868,gpt,Noah Greenwald,False,Biodiversity champion,Environmental activist,Alarmist
+7868,gpt,Danielle Kessler,False,Biodiversity guardian,Biodiversity advocate,Protector
+1216,gpt,Yossef Mekyton,True,Grieving advocate,Activist,Activist
+1216,gpt,Khalil Abu Yahia,True,Martyr,Martyr,Martyr
+1216,gpt,Benjamin Netanyahu,False,Aggressor,Leader,Leader
+1216,gpt,Neta Golan,False,Resilient campaigner,Dissident,Advocate
+18037,gpt,Gabe Amo,True,Trailblazer,Advocate,Advocate
+18037,gpt,Gerry Leonard,True,Traditionalist,Critic,Patriot
+18037,gpt,David Cicilline,False,Predecessor,Leader,Leader
+18042,gpt,Amanda Pritchard,True,Advocate,Advocate,Leader
+18042,gpt,Professor Peter Johnson,True,Supporter,Optimist,Supporter
+18042,gpt,PwC,False,Cost-cutter,Downsizer,Corporation
+18042,gpt,Duke and Duchess of Sussex,False,Eco-hypocrite,Hypocrite,Celebrity
+32113,gpt,China,True,Collaborator,Collaborator,Polluter
+32113,gpt,U.S.,True,Collaborator,Collaborator,Collaborator
+32113,gpt,David Waskow,False,Critic,Advocate,Critic
+32113,gpt,Lauri Myllyvirta,False,Analyst,Analyst,Analyst
+50842,gpt,Sultan Al Jaber,True,Controversial figure,Defendant,Mediator
+50842,gpt,ADNOC,True,Oil giant,Alleged collaborator,Corporation
+50842,gpt,Christiana Figueres,False,Critic,Critic,Critic
+50842,gpt,Centre for Climate Reporting,False,Whistleblower,Whistleblower,Whistleblower
+6580,gpt,Yossi Sneider,True,Witness,Worried relative,Worried relative
+6580,gpt,Shiri Bib,True,Victim,Victim,Victim
+6580,gpt,Kfir,False,Innocent,Innocent,Innocent
+6580,gpt,Margit Silverman,False,Vulnerable,Vulnerable,Missing
+19340,gpt,Croatian Authorities,True,Investigator,Investigator,Investigator
+19340,gpt,Coca-Cola,True,Suspect,Corporation,Cooperator
+19340,gpt,Vili Beros,False,Reassurer,Health official,Informer
+19340,gpt,Krunoslav Capak,False,Analyst,Public health expert,Analyst
+13651,gpt,Palestinian families,True,Survivor,Victim,Survivor
+13651,gpt,Doctors in Gaza,True,Caretaker,Caretaker,Caretaker
+13651,gpt,Ashraf al-Qudra,False,Spokesperson,Advocate,Advocate
+13651,gpt,Palestinian Red Crescent Society,False,Protector,Protector,Protector
+15312,gpt,DK Shivakumar,True,Defender,Accused,Defender
+15312,gpt,KT Rama Rao,True,Critic,Critic,Critic
+15312,gpt,Terry Gou,False,Contender,Contender,Contender
+15312,gpt,Foxconn Technology Group,False,Prize,Target,Target
+43032,gpt,Rosalynn Carter,True,Advocate,Advocate,Advocate
+43032,gpt,Jimmy Carter,True,Supporter,Supporter,Reformer
+43032,gpt,Hugh Gallen,False,Ally,Ally,Ally
+43032,gpt,Marion Scher,False,Amplifier,Storyteller,Catalyst
+13662,gpt,Israeli army,True,Aggressor,Aggressor,Aggressor
+13662,gpt,Palestinian civilians,True,Victim,Victim,Victim
+13662,gpt,Hani Mahmoud,False,Witness,Witness,Witness
+13662,gpt,Muhammad Abu Silmeyeh,False,Informant,Informer,Caretaker
+22775,gpt,Alexander De Croo,True,Mediator,Mediator,Critic
+22775,gpt,Petra De Sutter,True,Advocate,Advocate,Advocate
+22775,gpt,Abdalrahim al-Farra,False,Witness,Diplomat,Observer
+22775,gpt,Anuna De Wever Van der Heyden,False,Activist,Activist,Commentator
+22796,gpt,Israeli government,True,Accuser,Accuser,Accuser
+22796,gpt,Hamas,True,Aggressor,Aggressor,Aggressor
+22796,gpt,Honest Reporting,False,Instigator,Instigator,Critic
+22796,gpt,CNN,False,Defender,Defender,Defender
+47930,gpt,Miguel Díaz-Canel,True,Supporter,Supporter,Supporter
+47930,gpt,Palestinian people,True,Victim,Victim,Victim
+47930,gpt,Cuba,False,Ally,Ally,Ally
+47930,gpt,Yanquiel Cardoso,False,Advocate,Advocate,Sympathizer
+49812,gpt,Jason J Eaton,True,Perpetrator,Suspect,Suspect
+49812,gpt,Hisham Awartani,True,Victim,Victim,Victim
+49812,gpt,Burlington Police,False,Investigator,Authority,Investigator
+49812,gpt,Tahseen Ahmed,False,Victim,Victim,Victim
+34828,gpt,Police,True,Enforcer,Enforcer,Enforcer
+34828,gpt,Protesters,True,Agitator,Activist,Agitator
+34828,gpt,Jewish Voice for Peace Action,False,Advocate,Advocate,Activist
+34828,gpt,Hamas,False,Aggressor,Militant,Aggressor
+47023,gpt,USS Hudner,True,Defender,Defender,Defender
+47023,gpt,Houthi militants,True,Aggressor,Aggressor,Aggressor
+47023,gpt,Sabrina Singh,False,Spokesperson,Spokesperson,Spokesperson
+47023,gpt,U.S. Central Command,False,Authority,Authority,Reporter
+12194,gpt,Columbia Business School,True,Trendsetter,Finance gateway,Tradition
+12194,gpt,Harvard undergraduates,True,Opportunist,Trendsetter,Diversity
+12194,gpt,anonymous tech entrepreneur,False,Dreamer,Wealth seeker,Aspirant
+12194,gpt,tech industry,False,Gold rush,Opportunity magnet,Opportunity
+17006,gpt,International Labour Organization,True,Advocate,Advocate,Observer
+17006,gpt,Gaza,True,Victim,Victim,Victim
+17006,gpt,Ruba Jaradat,False,Spokesperson,Spokesperson,Advocate
+17006,gpt,Israel,False,Aggressor,Aggressor,Aggressor
+38722,gpt,Maine,True,Battleground,Arbiter,Defender
+38722,gpt,Massachusetts,True,Traditionalist,Traditionalist,Advocate
+38722,gpt,Maine Woodland Owners,False,Defender,Protector,Protector
+38722,gpt,Congressional Sportsmen's Foundation,False,Advocate,Advocate,Reformer
+19382,gpt,Japanese nationals,True,Suspect,Suspect,Suspect
+19382,gpt,Cambodian government,True,Collaborator,Collaborator,Collaborator
+19382,gpt,U.N. Human Rights Office,False,Observer,Observer,Observer
+19382,gpt,Japanese government,False,Facilitator,Facilitator,Facilitator
+29295,gpt,Nityanand Rai,True,Strategist,Critic,Advocate
+29295,gpt,Lalu Prasad,True,Antagonist,Fallen leader,Scapegoat
+29295,gpt,Amit Shah,False,Tactician,Strategist,Provocateur
+29295,gpt,Tejashwi Yadav,False,Heir,Heir,Disappointment
+24453,gpt,James Cleverly,True,Diplomat,Protector,Protector
+24453,gpt,Suella Braverman,True,Predecessor,Predecessor,Predecessor
+24453,gpt,Downing Street,False,Authority,Authority,Authority
+24453,gpt,Supreme Court,False,Arbiter,Arbiter,Arbiter
+50780,gpt,Sunil Ojha,True,Reconciled rebel,Rebel,Influencer
+50780,gpt,Narendra Modi,True,Strategic leader,Leader,Leader
+50780,gpt,Amit Shah,False,Loyal confidant,Supporter,Mourner
+50780,gpt,Keshubhai Patel,False,Dissenting elder,Dissenter,Rebel
+7699,gpt,George Santos,True,Defendant,Defendant,Defendant
+7699,gpt,Anthony D'Esposito,True,Accuser,Accuser,Accuser
+7699,gpt,Nick LaLota,False,Ally,Ally,Supporter
+7699,gpt,Mike Lawler,False,Ally,Ally,Supporter
+49106,gpt,Israel,True,Aggressor,Occupier,Occupier
+49106,gpt,Palestinians,True,Victim,Victim,Oppressed
+49106,gpt,Yasser Arafat,False,Peacemaker,Peacemaker,Peacemaker
+49106,gpt,Zionist militias,False,Perpetrator,Aggressor,Displacer
+45635,gpt,Dilan Yesilgöz,True,Trailblazer,Trailblazer,Trailblazer
+45635,gpt,Geert Wilders,True,Firebrand,Firebrand,Firebrand
+45635,gpt,Mark Rutte,False,Veteran,Veteran,Veteran
+45635,gpt,Pieter Omtzigt,False,Kingmaker,Advocate,Kingmaker
+50778,gpt,Rishi Sunak,True,Provocateur,Defender,Critic
+50778,gpt,Kyriakos Mitsotakis,True,Diplomat,Diplomat,Diplomat
+50778,gpt,Greece,False,Heritage guardian,Cultural guardian,Claimant
+50778,gpt,Sir Keir Starmer,False,Critic,Critic,Critic
+19908,gpt,Asaduddin Owaisi,True,Critic,Critic,Critic
+19908,gpt,Narendra Modi,True,Strategist,Promoter,Promiser
+19908,gpt,BRS,False,Traditionalist,Target,Target
+19908,gpt,Telangana,False,Battleground,Battleground,Battleground
+29339,gpt,Virat Kohli,True,Icon,Icon,Icon
+29339,gpt,Anushka Sharma,True,Muse,Muse,Supporter
+29339,gpt,Basu Shanker,False,Visionary,Mentor,Mentor
+29339,gpt,Sachin Tendulkar,False,Legend,Legend,Legend
+6896,gpt,Andrew Wilkinson,True,Victim,Victim,Victim
+6896,gpt,Pedro Argote,True,Suspect,Assailant,Fugitive
+29364,gpt,Formula One,True,Spectacle,Spectacle,Spectacle
+29364,gpt,Las Vegas,True,Epicenter,Host,Metropoli
+29364,gpt,Michael Green,False,Historian,Historian,Historian
+29364,gpt,Alan Feldman,False,Visionary,Visionary,Insider
+33169,gpt,Jamal Bhuyan,True,Survivor,Trailblazer,Survivor
+33169,gpt,Bangladesh,True,Underdog,Underdog,Underdog
+33169,gpt,Jamie Day,False,Mentor,Mentor,Mentor
+33169,gpt,FC Copenhagen,False,Lost opportunity,Stepping stone,Opportunity
+30510,gpt,Anne Hidalgo,True,Controversial reformer,Controversial leader,Environmental advocate
+30510,gpt,David Alphand,True,Critic,Critic,Critic
+30510,gpt,Nelly Garnier,False,Environmental advocate,Opposition voice,Critic
+26182,gpt,Parents,True,Gatekeeper,Guardian,Supporter
+26182,gpt,Children,True,Dreamer,Aspirant,Aspirant
+26182,gpt,Government,False,Supporter,Supporter,Benefactor
+26182,gpt,Getty Images,False,Observer,Observer,Investor
+45276,gpt,Broadcom,True,Acquirer,Acquirer,Acquirer
+45276,gpt,VMware,True,Target,Acquired,Target
+45276,gpt,Activision Blizzard,False,Precedent,Acquired,Acquired
+45276,gpt,Hock Tan,False,Strategist,Deal maker,Deal maker
+21238,gpt,TikTok,True,Influencer,Influencer,Controversial platform
+21238,gpt,Josh Hawley,True,Critic,Critic,Critic
+21238,gpt,Mike Gallagher,False,Critic,Critic,Critic
+21238,gpt,ByteDance,False,Puppet master,Proprietor,Alleged influencer
+43150,gpt,Israel,True,Combatant,Combatant,Combatant
+43150,gpt,Benjamin Netanyahu,True,Hawk,Hawk,Leader
+43150,gpt,United States,False,Ally,Ally,Ally
+43150,gpt,Ismail Haniyeh,False,Negotiator,Negotiator,Negotiator
+46452,gpt,Dipan Mehta,True,Advisor,Advocate,Investor advocate
+46452,gpt,Tata Group of Companies,True,Icon,Icon,Corporate giant
+46452,gpt,ICICI Bank,False,Pillar,Opportunity,Growth performer
+46452,gpt,HDFC Bank,False,Stalwart,Stalwart,Market favorite
+46496,gpt,Sensifi,True,Innovator,Innovator,Innovator
+46496,gpt,Modi Peled,True,Visionary,Advocate,Critic
+46496,gpt,Scentian Bio,False,Pioneer,Pioneer,Pioneer
+46496,gpt,Adrian Kostrz,False,Experimenter,Visionary,Expert
+21208,gpt,Homer Simpson,True,Hapless dad,Schemer,Schemer
+21208,gpt,Bart Simpson,True,Mischievous son,Trend follower,Victim
+21208,gpt,Taylor Whitley,False,Disillusioned collector,Speculator,Investor
+21208,gpt,Adam (Little Fish),False,Opportunistic investor,Optimist,Optimist
+20614,gpt,Russia,True,Antagonist,Antagonist,Antagonist
+20614,gpt,Nato,True,Defender,Defender,Defender
+20614,gpt,Ukraine,False,Victim,Victim,Victim
+20614,gpt,United States,False,Ally,Scapegoat,Adversary
+31052,gpt,Anna Politkovskaya,True,Martyr,Martyr,Martyr
+31052,gpt,Sergei Khadzhikurbanov,True,Accomplice,Accomplice,Accomplice
+31052,gpt,Vladimir Putin,False,Antagonist,Antagonist,Antagonist
+31052,gpt,Rustam Makhmudov,False,Assassin,Assassin,Assassin
+4608,gpt,US,True,Ally,Arms supplier,Ally
+4608,gpt,Ukraine,True,Recipient,Recipient,Dependent
+4608,gpt,Iran,False,Adversary,Arms supplier,Adversary
+4608,gpt,Houthi rebels,False,Proxy,Proxy,Proxy
+47059,gpt,Vladimir Putin,True,Peacemaker,Peacemaker,Peacemaker
+47059,gpt,G20 Leaders,True,Audience,Observer,Condemner
+47059,gpt,Ukraine,False,Victim,Victim,Victim
+51352,gpt,Russia,True,Enforcer,Conservative enforcer,Nation
+51352,gpt,Vladimir Putin,True,Strategist,Cultural defender,Leader
+51352,gpt,ethnic minorities in Russia,False,Victim,Marginalized group,Marginalized group
+51352,gpt,Lieutenant General Valentina Kazakova,False,Implementer,Legislative facilitator,Official
+4768,gpt,Killnet,True,Hacktivist,Antagonist,Antagonist
+4768,gpt,British Royal Family,True,Institution,Victim,Victim
+4768,gpt,Prince Andrew,False,Scandal,Scapegoat,Scapegoat
+4768,gpt,King Charles III,False,Supporter,Ally,Ally
+42149,gpt,Donald Trump,True,Defendant,Defendant,Controversial figure
+42149,gpt,D John Sauer,True,Advocate,Advocate,Free speech advocate
+42149,gpt,Cornelia Pillard,False,Skeptic,Adjudicator,Judicial scrutinizer
+42149,gpt,Cecil VanDevender,False,Defender,Prosecutor,Legal clarifier
+4857,gpt,U.N. Office for the Coordination of Humanitarian Affairs,True,Rescuer,Observer,Responder
+4857,gpt,World Health Organization,True,Healer,Responder,Healer
+4857,gpt,Abdul Wahid Rayan,False,Messenger,Messenger,Witness
+4857,gpt,Abdul Ghani Baradar,False,Condoler,Leader,Condoler
+4889,gpt,Donald Trump,True,Controversial figure,Controversial figure,Controversial figure
+4889,gpt,Anthony Pratt,True,Opportunist,Alleged informant,Confidant
+4889,gpt,Jack Smith,False,Investigator,Investigator,Investigator
+4889,gpt,News Agency,False,Informer,Reporter,Reporter
+18892,gpt,Jerry Boylan,True,Negligent captain,Negligent captain,Negligent leader
+18892,gpt,Victims of the tragedy,True,Innocent life,Innocent victim,Innocent life
+18892,gpt,United States Attorney Martin Estrada,False,Prosecutor,Prosecutor,Justice seeker
+25055,gpt,United Arab Emirates,True,Mediator,Mediator,Influencer
+25055,gpt,Israel,True,Defender,Aggressor,Defender
+25055,gpt,Qatar,False,Negotiator,Peacemaker,Mediator
+25055,gpt,Hamas,False,Aggressor,Antagonist,Aggressor
+46083,gpt,Imran Khan,True,Opposition leader,Controversial leader,Martyr
+46083,gpt,Pakistan's Supreme Court,True,Judicial authority,Judicial authority,Arbiter
+46083,gpt,Abuzar Salman Niazi,False,Legal analyst,Legal commentator,Advocate
+46083,gpt,Basil Nabi Malik,False,Political commentator,Political analyst,Skeptic

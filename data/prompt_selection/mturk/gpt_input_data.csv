@@ -1,0 +1,58 @@
+orig_index,llm,char,main_character,zero_shot,character_summary,concept_induction,random,filename,drive_image_id
+1216,gpt,Yossef Mekyton,True,Grieving advocate,Activist,Activist,Diadactic,07.txt,1aiFgOJ5l5zr_HYfxxA4PggDN9AXx89JJ
+4608,gpt,Iran,False,Adversary,Arms supplier,Adversary,Environmentalist,50.txt,1rz98W9yK_hLkiiB1-JOKykdX4y-bnIgG
+4768,gpt,British Royal Family,True,Institution,Victim,Victim,Sleuth,53.txt,1AJee5kBd5e-A3n5RyKbOXKytTs02h9or
+4857,gpt,U.N. Office for the Coordination of Humanitarian Affairs,True,Rescuer,Observer,Responder,Muse,55.txt,1SowybbTgWyCL2WTMYQI9ahMk1bGqVTJi
+4889,gpt,News Agency,False,Informer,Reporter,Reporter,Convict,56.txt,1FopRj66OMzHsB3VoIzfwymuQTJ6PLXBe
+6580,gpt,Yossi Sneider,True,Witness,Worried relative,Worried relative,Comic,12.txt,1ssgmXTchdwKa6HqnwktFd_gXrwVCanx4
+6896,gpt,Pedro Argote,True,Suspect,Assailant,Fugitive,Educator,37.txt,1-fej_rdOPF9chqUrePaIWNrqJqV5G7X9
+7699,gpt,Mike Lawler,False,Ally,Ally,Supporter,Alumnus,31.txt,1hiLzaTmmwU_M9bmex5lvRrla_wIZDut5
+7868,gpt,Danielle Kessler,False,Biodiversity guardian,Biodiversity advocate,Protector,Assailant,06.txt,1nhF1udo_ZnlM_jyKqyFocdWNfcY3kJ2S
+12194,gpt,tech industry,False,Gold rush,Opportunity magnet,Opportunity,Recorder,24.txt,1OF5PP1ZPOQGn3vekhxNpR5QxlDppDMTG
+13651,gpt,Palestinian families,True,Survivor,Victim,Survivor,Millionaires,14.txt,1xzKaHuGwTjiMqaLa8e3QGKp3taoK0HKU
+13662,gpt,Muhammad Abu Silmeyeh,False,Informant,Informer,Caretaker,Assault victim,17.txt,1pm5OKgmFM9SPfHI_DhGD5K2Ma-tkk1bU
+15312,gpt,Foxconn Technology Group,False,Prize,Target,Target,Nihilist,15.txt,1XFBPx5a2Gi52t5aLQ-jj6pTFW6CV6rcn
+17006,gpt,International Labour Organization,True,Advocate,Advocate,Observer,Time-keeper,25.txt,1eb1f5lWZuDYPgQfBMktyxUPo8u4zUarU
+18037,gpt,Gerry Leonard,True,Traditionalist,Critic,Patriot,Olive country,08.txt,1OGkCDQICkbUehtjUzBuFdOqIygE2adPa
+18042,gpt,Amanda Pritchard,True,Advocate,Advocate,Leader,Bird lover,09.txt,1HeW-mVho498xay57Z-LfqC_IIWBgXELJ
+18892,gpt,Victims of the tragedy,True,Innocent life,Innocent victim,Innocent life,Figure skater,57.txt,1Ldo_3tibGGhSFdgjmRVVAONc757AzZD9
+19340,gpt,Vili Beros,False,Reassurer,Health official,Informer,Mafioso,13.txt,1DFP33SEWF0GxrNOx9tZnBGdhI719YrXO
+19908,gpt,Narendra Modi,True,Strategist,Promoter,Promiser,Prosciutto,35.txt,1Bti1kZ9_GLS1tq_HMQiUFyi5pVzlGUXb
+20356,gpt,Burman family,False,Controversial acquirer,Contender,Accused,Team Australia,03.txt,1K6MVclaGTmd-ZBLxWAySxVSRIMOKmdkt
+20614,gpt,United States,False,Ally,Scapegoat,Adversary,Banana republic,48.txt,1BzWR4vI2Hq-Gcan2vT0tXzi8YEhIdnZN
+21208,gpt,Adam (Little Fish),False,Opportunistic investor,Optimist,Optimist,Opium user,47.txt,1hFSSs34jmdcs482DJtuFkCFual1Bwli7
+21238,gpt,TikTok,True,Influencer,Influencer,Controversial platform,US president,43.txt,1p2Kwh1FVGJRgDmJS9dro6XJKbP_Bvwm-
+22452,gpt,Three Brotherhood Alliance,True,Resistance,Rebel,Rebel,Diamond expert,04.txt,1SCKWg2paKfySvHN-sVs7McVnG3e38xML
+22775,gpt,Anuna De Wever Van der Heyden,False,Activist,Activist,Commentator,Elite athlete,18.txt,1retoD-6MsMgt-3UZuXLPgGuKWbkIU5Hp
+22796,gpt,Honest Reporting,False,Instigator,Instigator,Critic,Detective,19.txt,139wsiHTtZN9leGpMw8Wmla1GIqiJKuAq
+24453,gpt,James Cleverly,True,Diplomat,Protector,Protector,Pollster,29.txt,1yOTfxIhnO64ISs8wN7b4Jnoes3r67A04
+25055,gpt,Hamas,False,Aggressor,Antagonist,Aggressor,Shipwright,58.txt,1u09c5IOdZ2HHEv0z0DYnOPartbxsXT3O
+26182,gpt,Government,False,Supporter,Supporter,Benefactor,Prodigal son,41.txt,16tWEJRc9bhO5Tw-dysTifmNJj-kcakCw
+27567,gpt,North Korea,False,Wildcard,Instigator,Opportunist,Steady ship,05.txt,1tiCX4Jx0PGbaEIgRQI-g79CbamvmYMTx
+29295,gpt,Nityanand Rai,True,Strategist,Critic,Advocate,Mediator,28.txt,1Zuacw-DJ3gAwDGEe96dEntI_bbDACbp4
+29339,gpt,Anushka Sharma,True,Muse,Muse,Supporter,Broken stooge,36.txt,1OVes_IvNoT3wIHDksg4mIRn7NZU3dWMM
+29364,gpt,Las Vegas,True,Epicenter,Host,Metropoli,Clergy,38.txt,1Jb9k_5y3pFn0hwsTlyRzqADuxx457nqm
+30510,gpt,Anne Hidalgo,True,Controversial reformer,Controversial leader,Environmental advocate,Oil tycoon,40.txt,1QIRiX8eHoc4aOykiOsPu3HHqqzJV3BD7
+32113,gpt,China,True,Collaborator,Collaborator,Polluter,Enchanter,10.txt,1U1vt1VGzG6G6FWGx4Jp9-R_KkulOgIvD
+33169,gpt,Jamal Bhuyan,True,Survivor,Trailblazer,Survivor,Vixen,39.txt,1T1uCJnw_Yj5gyMXqPe0-R6LlQEFe8tnZ
+34828,gpt,Hamas,False,Aggressor,Militant,Aggressor,Alibi,22.txt,1C_8M8JQyoYOeF0C6c1g5aeOrfIO0G-Fw
+38722,gpt,Maine Woodland Owners,False,Defender,Protector,Protector,Olive oil giant,26.txt,1XQgq5cCWfVjlrL9QQboEhmcMnXQjncfY
+42149,gpt,Cecil VanDevender,False,Defender,Prosecutor,Legal clarifier,Great parent,54.txt,1095xHx2JNVdmsa8vA0RJatYm35pnGO3w
+43032,gpt,Marion Scher,False,Amplifier,Storyteller,Catalyst,Mafioso,16.txt,1ljZhZF4Qyy0ETmzPZ-wXkiqTKmzKfMvx
+43150,gpt,Benjamin Netanyahu,True,Hawk,Hawk,Leader,Mechanic,44.txt,1j7E9__e284OQ5kVNdvtiW5LER9TodSTF
+45276,gpt,VMware,True,Target,Acquired,Target,Victim,42.txt,1QAUT7o6XMkEtloq1jeGEoVxGEl9awhUY
+45635,gpt,Pieter Omtzigt,False,Kingmaker,Advocate,Kingmaker,Recorder,33.txt,1YBvvdjea1JF5zixZ39MuJdR12ox4C9zi
+46083,gpt,Abuzar Salman Niazi,False,Legal analyst,Legal commentator,Advocate,Suspect,59.txt,1XGeWECNSToofB1TtZjT2UVlD2t9IVa87
+46452,gpt,Tata Group of Companies,True,Icon,Icon,Corporate giant,Trad climber,45.txt,1d0gH-6tSL3ieeCpZSgqrx03poI0hBWF1
+46496,gpt,Modi Peled,True,Visionary,Advocate,Critic,Great parent,46.txt,1O_uGBk4yKRIf_SNFYPnRwGtavWKcUh0S
+47023,gpt,U.S. Central Command,False,Authority,Authority,Reporter,Magician,23.txt,10HsGH54D_zX1wYd8XXxNDSdKXUesYjlU
+47059,gpt,G20 Leaders,True,Audience,Observer,Condemner,Happy family,51.txt,1eyjmkYu6dSd5IqSWiaIG3aTABQ4JPQEt
+47930,gpt,Yanquiel Cardoso,False,Advocate,Advocate,Sympathizer,Convict,20.txt,1c4FDD_wWemvxmBB8LcI7OAQ9InlOJlfY
+48523,gpt,Javier Milei,True,Provocateur,Provocateur,Firebrand,Pet school,01.txt,1RufQQ1fypWDRqZKdbJw8SJeQCeEhwhas
+49106,gpt,Palestinians,True,Victim,Victim,Oppressed,US botanist leader,32.txt,176rC92kbVd_MWdQzqMhD5vpK7BSgh-pY
+49812,gpt,Burlington Police,False,Investigator,Authority,Investigator,EV supporter,21.txt,1BB-cJ8pdsn6LNxcb3UOkIgEWyaUG5W13
+50778,gpt,Greece,False,Heritage guardian,Cultural guardian,Claimant,Big bad wolf,34.txt,1TKV9C8V70dJlGjJoMEEU1IPORVXHWGvD
+50780,gpt,Keshubhai Patel,False,Dissenting elder,Dissenter,Rebel,Occlumency,30.txt,107Xp_lv3kn7X8aTlrP_ZQHO1O0AaeWG8
+50842,gpt,Sultan Al Jaber,True,Controversial figure,Defendant,Mediator,Diadactic,11.txt,1XeEgkn1K3vac4Al3RkRxKSvm8K75lcaw
+51140,gpt,China,True,Influencer,Mediator,Mediator,Peace proponent,02.txt,1Y5Xh3Qrgqy94Ioixu4dAYcNPFv3bV_7E
+51352,gpt,Lieutenant General Valentina Kazakova,False,Implementer,Legislative facilitator,Official,Jealous spouse,52.txt,1aYl7GJBfBttSuY2zJf8CPQ-HQaVr3F7I

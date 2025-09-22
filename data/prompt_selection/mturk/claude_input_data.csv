@@ -1,0 +1,20 @@
+orig_index,llm,char,main_character,zero_shot,character_summary,concept_induction,random,filename,drive_image_id
+4768,claude,King Charles III,FALSE,Champion,Moral crusader,Moral voice,Child piano prodigy,53.txt,1AJee5kBd5e-A3n5RyKbOXKytTs02h9or
+6580,claude,Margit Silverman,FALSE,Casualty,Casualty,Patient,Scam suspect,12.txt,1ssgmXTchdwKa6HqnwktFd_gXrwVCanx4
+6896,claude,Pedro Argote,TRUE,Assailant,Avenger,Perpetrator,Great dad,37.txt,1-fej_rdOPF9chqUrePaIWNrqJqV5G7X9
+13651,claude,Ashraf al-Qudra,FALSE,Messenger,Messenger,Whistleblower,Massager,14.txt,1xzKaHuGwTjiMqaLa8e3QGKp3taoK0HKU
+18042,claude,Professor Peter Johnson,TRUE,Cheerleader,Expert,Enthusiast,EV supporter,09.txt,1HeW-mVho498xay57Z-LfqC_IIWBgXELJ
+19382,claude,Japanese nationals,TRUE,Victim,Suspect,Scam suspect,Vixen,27.txt,1Oer8A3J-Q_tk510JABXAyU6bEcXmrN02
+19908,claude,Asaduddin Owaisi,TRUE,Critic,Critic,Minority advocate,Cribbage,35.txt,1Bti1kZ9_GLS1tq_HMQiUFyi5pVzlGUXb
+21208,claude,Adam (Little Fish),FALSE,Opportunist,True believer,Speculator,Champion,47.txt,1hFSSs34jmdcs482DJtuFkCFual1Bwli7
+22775,claude,Anuna De Wever Van der Heyden,FALSE,Advocate,Critic,Political analyst,Fertile land,18.txt,1retoD-6MsMgt-3UZuXLPgGuKWbkIU5Hp
+25055,claude,Qatar,FALSE,Negotiator,Peacebroker,Peacemaker,Banana republic,58.txt,1u09c5IOdZ2HHEv0z0DYnOPartbxsXT3O
+27567,claude,North Korea,FALSE,Rogue,Opportunistic supplier,Opportunistic partner,Choir,05.txt,1tiCX4Jx0PGbaEIgRQI-g79CbamvmYMTx
+29339,claude,Sachin Tendulkar,FALSE,Legend,Legend,Icon,Mob boss,36.txt,1OVes_IvNoT3wIHDksg4mIRn7NZU3dWMM
+45635,claude,Pieter Omtzigt,FALSE,Kingmaker,Powerbroker,Powerbroker,Diadactic,33.txt,1YBvvdjea1JF5zixZ39MuJdR12ox4C9zi
+46083,claude,Basil Nabi Malik,FALSE,Skeptic,Skeptic,Naysayer,Recorder,59.txt,1XGeWECNSToofB1TtZjT2UVlD2t9IVa87
+46496,claude,Modi Peled,TRUE,Visionary,Visionary,Whistleblower,Broken stooge,46.txt,1O_uGBk4yKRIf_SNFYPnRwGtavWKcUh0S
+47059,claude,Vladimir Putin,TRUE,Peacemaker,Peacemaker-in-disguise,Aggressor-in-denial,Commodity,51.txt,1eyjmkYu6dSd5IqSWiaIG3aTABQ4JPQEt
+47930,claude,Miguel Díaz-Canel,TRUE,Champion,Rally leader,Solidarity champion,Chameleon,20.txt,1c4FDD_wWemvxmBB8LcI7OAQ9InlOJlfY
+50842,claude,Sultan Al Jaber,TRUE,Defendant,Embattled figurehead,Embattled defender,Recorder,11.txt,1XeEgkn1K3vac4Al3RkRxKSvm8K75lcaw
+51140,claude,China,TRUE,Powerbroker,Power broker,Puppet master,Sidekick,02.txt,1Y5Xh3Qrgqy94Ioixu4dAYcNPFv3bV_7E

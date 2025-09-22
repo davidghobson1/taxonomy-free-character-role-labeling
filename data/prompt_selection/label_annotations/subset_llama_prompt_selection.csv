@@ -1,0 +1,78 @@
+orig_index,llm,char,main_character,zero_shot,character_summary,concept_induction
+27555,llama,Iran,True,Executioner,Aggressor,Oppressor
+27555,llama,Revolutionary Guard,True,Victim,Target,Enforcer
+27555,llama,Hassan Rouhani,False,Avenger,Authority,Authoritarian
+27555,llama,Sistan-Baluchistan province,False,Hotbed,Battleground,Hotspot
+22452,llama,Myanmar's military,True,Aggressor,Aggressor,Aggressor
+22452,llama,Three Brotherhood Alliance,True,Liberator,Insurgent,Insurgent
+22452,llama,Myint Swe,False,Authoritarian,Usurper,Alarmist
+22452,llama,United Nations,False,Mediator,Observer,Watchdog
+7868,llama,U.S. Fish and Wildlife Service,True,Conservation authority,Authority,Conservator
+7868,llama,Martha Williams,True,Conservation advocate,Conservationist,Pragmatist
+7868,llama,Noah Greenwald,False,Biodiversity guardian,Whistleblower,Activist
+7868,llama,Danielle Kessler,False,Wildlife protector,Alarmist,Alarmist
+18037,llama,Gabe Amo,True,Trailblazer,Reformer,Reformer
+18037,llama,Gerry Leonard,True,Maverick,Traditionalist,Conservative
+18037,llama,David Cicilline,False,Legacy,Predecessor,Philanthropist
+15312,llama,DK Shivakumar,True,Denouncer,Accused,Accused
+15312,llama,KT Rama Rao,True,Critic,Critic,Critic
+15312,llama,Terry Gou,False,Suspect,Suspect,Suspect
+15312,llama,Foxconn Technology Group,False,Prize,Pawn,Prize
+43032,llama,Rosalynn Carter,True,Champion,Advocate,Champion
+43032,llama,Jimmy Carter,True,Ally,Ally,Ally
+43032,llama,Hugh Gallen,False,Reformer,Reformer,Confidant
+43032,llama,Marion Scher,False,Multiplier,Champion,Catalyst
+22796,llama,Israeli government,True,Accuser,Accuser,Adversary
+22796,llama,Hamas,True,Aggressor,Aggressor,Aggressor
+22796,llama,Honest Reporting,False,Provocateur,Watchdog,Watchdog
+22796,llama,CNN,False,Defendant,Defendant,Defendant
+49812,llama,Jason J Eaton,True,Perpetrator,Perpetrator,Suspect
+49812,llama,Hisham Awartani,True,Victim,Victim,Victim
+49812,llama,Burlington Police,False,Authority,Authority,Authority
+49812,llama,Tahseen Ahmed,False,Victim,Victim,Victim
+38722,llama,Maine,True,Battleground,Battleground,Regulator
+38722,llama,Massachusetts,True,Battleground,Battleground,Restrictor
+38722,llama,Maine Woodland Owners,False,Gatekeeper,Gatekeeper,Conservationist
+38722,llama,Congressional Sportsmen's Foundation,False,Catalyst,Catalyst,Advocate
+24453,llama,James Cleverly,True,Tactician,Protector,Reformer
+24453,llama,Suella Braverman,True,Hardliner,Hardliner,Hardliner
+24453,llama,Downing Street,False,Powerbroker,Authority,Authority
+24453,llama,Supreme Court,False,Arbitrator,Arbiter,Arbitrator
+50780,llama,Sunil Ojha,True,Organiser,Protagonist,Unsung hero
+50780,llama,Narendra Modi,True,Mentor,Mentor,Powerbroker
+50780,llama,Amit Shah,False,Eulogist,Eulogist,Eulogist
+50780,llama,Keshubhai Patel,False,Rebel,Associate,Renegade
+50778,llama,Rishi Sunak,True,Antagonist,Antagonist,Antagonist
+50778,llama,Kyriakos Mitsotakis,True,Victim,Victim,Diplomat
+50778,llama,Greece,False,Aggrieved party,Pursuer,Beneficiary
+50778,llama,Sir Keir Starmer,False,Critic,Critic,Critic
+33169,llama,Jamal Bhuyan,True,Survivor,Icon,Inspiration
+33169,llama,Bangladesh,True,Underdog,Underdog,Underdog
+33169,llama,Jamie Day,False,Mentor,Mentor,Mentor
+33169,llama,FC Copenhagen,False,Springboard,Springboard,Launchpad
+30510,llama,Anne Hidalgo,True,Eco-crusader,Embattled leader,Hypocrite
+30510,llama,David Alphand,True,Critic,Vocal critic,Watchdog
+30510,llama,Nelly Garnier,False,Moralist,Environmental skeptic,Critic
+45276,llama,Broadcom,True,Powerhouse,Acquirer,Acquirer
+45276,llama,VMware,True,Prize,Target,Target
+45276,llama,Activision Blizzard,False,Target,Precedent,Precedent
+45276,llama,Hock Tan,False,Architect,Architect,Architect
+43150,llama,Israel,True,Belligerent,Belligerent,Aggressor
+43150,llama,Benjamin Netanyahu,True,Hardliner,Hardliner,Hardliner
+43150,llama,United States,False,Benefactor,Mediator,Enabler
+43150,llama,Ismail Haniyeh,False,Negotiator,Pragmatist,Peacemaker
+20614,llama,Russia,True,Aggressor,Aggressor,Aggressor
+20614,llama,Nato,True,Protector,Enforcer,Protector
+20614,llama,Ukraine,False,Victim,Victim,Victim
+20614,llama,United States,False,Enabler,Rival,Counterweight
+31052,llama,Anna Politkovskaya,True,Victim,Martyr,Whistleblower
+31052,llama,Sergei Khadzhikurbanov,True,Accessory,Accessory,Accomplice
+31052,llama,Vladimir Putin,False,Figurehead,Figurehead,Adversary
+31052,llama,Rustam Makhmudov,False,Assassin,Assassin,Assassin
+4857,llama,U.N. Office for the Coordination of Humanitarian Affairs,True,Responder,Authority,Relief provider
+4857,llama,World Health Organization,True,Responder,Authority,Relief provider
+4857,llama,Abdul Wahid Rayan,False,Messenger,Messenger,Witness
+4857,llama,Abdul Ghani Baradar,False,Condoler,Leader,Sympathizer
+18892,llama,Jerry Boylan,True,Coward,Coward,Coward
+18892,llama,Victims of the tragedy,True,Mourned,Martyr,Martyr
+18892,llama,United States Attorney Martin Estrada,False,Avenger,Avenger,Avenger
