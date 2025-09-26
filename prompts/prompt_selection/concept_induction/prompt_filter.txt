@@ -1,0 +1,9 @@
+For the following list of characters/entities: ${char_list}, extract lines copied directly from the text that indicate how the characters are portrayed. The lines do not need to mention the character explicitly, but can reflect qualities of the character through context. Limit the number of quotes to at most 7 per character. Please respond ONLY with a valid JSON in the following format (remember to escape all quotes): 
+{
+	"<CHARACTER_1>": [ "< QUOTE_1 >", "< QUOTE_2 >", ... ],
+	"<CHARACTER_2>": [ "< QUOTE_1 >", "< QUOTE_2 >", ... ],
+	...
+}
+Text: """
+${text}
+"""

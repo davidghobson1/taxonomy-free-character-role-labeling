@@ -1,0 +1,9 @@
+For the following list of characters/entities: ${char_list}, summarize the portrayals of each character in the text. Write your summarizes as bullet points, but use no more than 5 bullets per character. Please respond ONLY with a valid JSON object in the following format (remember to escape all quotes):
+{
+    "<CHARACTER_1>": [ "< BULLET_1 >", "< BULLET_2 >", ... ],
+    "<CHARACTER_2>": [ "< BULLET_1 >", "< BULLET_2 >", ... ],
+    ...
+}
+Text: """
+${text}
+"""

@@ -1,0 +1,5 @@
+Identify the central characters/entities from the text. A central character is a person or group of people (associations/companies, nations, ethnic groups, etc.) that meaningfully contributes to the text or is portrayed strongly by the author. Limit your answer to at most 7 characters, but ideally fewer, and list them from most to least relevant to the text. Please respond only as a list of names as a JSON string in the following format: 
+[<CHARACTER_NAME_1>, <CHARACTER_NAME_2>, ...]
+Text: """
+${text}
+"""

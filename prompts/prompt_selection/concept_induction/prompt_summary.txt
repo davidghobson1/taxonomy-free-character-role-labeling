@@ -1,0 +1,9 @@
+For the following quotes about the different characters/entities, summarize the portrayals of each character into at most 3 bullet points. Please respond ONLY with a valid JSON object in the following format (remember to escape all quotes):
+{
+    "<CHARACTER_1>": [ "< BULLET_1 >", "< BULLET_2 >", ... ],
+    "<CHARACTER_2>": [ "< BULLET_1 >", "< BULLET_2 >", ... ],
+    ...
+}
+Text: """
+${text}
+"""

@@ -1,0 +1,15 @@
+For the following list of characters/entities: ${char_list}, identify whether each one is a hero, villain, or victim based on how they are depicted in the story. Here are some definitions:
+Hero: a fixer to a problem. They may increase agreement among members, boost commitment for a cause, or serve as a rallying point for a cause. 
+Villain: a causer of a problem. They may focus blame, provide a clear target for action, intensify negative emotions, or solidify group identities.
+Victim: one harmed by a problem. They are innocent, good, and in need of protection.
+
+Note that a character's portrayal may be implicit through the portrayals of other characters associated with them. 
+If none of these apply, respond "neither". Please respond only with one of these four options and respond ONLY with a valid JSON in the following format: 
+{
+	"<CHARACTER_1>": <HERO_VILLAIN_VICTIM_NEITHER>,
+	"<CHARACTER_2>": <HERO_VILLAIN_VICTIM_NEITHER>,
+	...
+}
+Text: """
+${text}
+"""
