@@ -1,125 +1,100 @@
 # Evaluating Taxonomy Free Character Role Labeling (TF-CRL) in News Stories using Large Language Models
 
-This repository is the official implementation of Evaluating Taxonomy Free Character Role Labeling (TF-CRL) in News Stories using Large Language Models.
+This repository is the official implementation of [Evaluating Taxonomy Free Character Role Labeling (TF-CRL) in News Stories using Large Language Models](https://aclanthology.org/2025.emnlp-main.750/).
 
-This contains the data, codebooks, and prompts used for the project, as well as the code to reproduce our results. Below is the breakdown of the repo structure.
+It contains the data, codebooks, prompts, and code used in the paper, including materials needed to reproduce our results.
 
-Repo in progress.
+## Overview
 
-<!-- <p align="center">
-    <img src="https://github.com/davidghobson1/llm-story-morals/blob/main/images/moral_pipeline.png?raw=true" alt="Results Image" width="550"/>
-</p>
+**Taxonomy Free Character Role Labeling (TF-CRL)** is a method for characterizing how people and entities are portrayed in news. It assigns an open-ended narrative role labels to characters based on their functional role in the narrative.
 
 ## Repo Structure
+
 ```
 .
-├── code                                             
-    ├── Categorical-Automated-Validation.ipynb       # automated comparison of protagonist/antagonist/valence/protagonist type
-    ├── MTurk-Analysis.ipynb                         # analyse MTurk results
-    ├── automated_validation.py                      # automated comparison of human vs GPT morals
-    ├── moral_clustering.py                          # cluster the morals 
-|
-├── codebooks                                        
-    ├── mturk_survey_template.html                   # Amazon Mechanical Turk validation template/instructions
-    ├── story_morals_codebook.docx                   # codebook for human story moral annotations
-|
-├── data                                              
-    ├── application                                  # data for Application section of paper
-        ├── fairytalez_dataset.csv
-        ├── gpt_responses_fairytalex.csv
-    ├── validation                                   # data for Validation section of paper
-        ├── moral_annotations                        
-            ├── gpt_responses_english.csv            # GPT's responses to the English validation texts
-            ├── gpt_responses_mandarin.csv           # GPT's responses to the Mandarin validation texts
-            ├── human_responses_english.csv          # human responses to the English validation texts
-            ├── human_responses_mandarin.csv         # human responses to the Mandarin validation texts
-        ├── mturk
-            ├── mturk_responses.csv                  # responses from MTurk survey
-        ├── validation_dataset.csv                   # text and metadata for the validation dataset 
-|
-├── prompts                                            
-    ├── prompts.json                                 # prompts used in our work
-|
-├── requirements.txt                                  
-├── README.md
+├── code/
+│   ├── Application.ipynb           # Reproduce Application results
+│   └── Label Clustering.ipynb      # Label clustering code
+│
+├── codebooks/
+│   ├── Annotation Guide - Character Role Labeling.pdf          # Human annotation guide
+│   ├── AMT_annotation_guide_character_label_assessment.html    # MTurk template (validation)
+│   └── AMT_annotation_guide_prompt_selection.html              # MTurk template (prompt selection)
+│
+├── data/
+│   ├── application/                # Data for the Application section
+│   │   ├── character_labels_data/  # Per-narrative LLM-labeled character data
+│   │   ├── clustered_labels.csv    # Clustered labels across all five narrative domains
+│   │   └── character_name_equivalencies.json   # Name standardization mapping
+│   │
+│   ├── validation/                 # Validation section data
+│   │   ├── label_annotations/      # Human and LLM labels for validation texts
+│   │   ├── mturk/                  # MTurk validation results
+│   │   └── validation_dataset.csv  # Validation texts
+│   │
+│   └── prompt_selection/           # Prompt Selection section data
+│       ├── label_annotations/      # LLM labels under different prompting strategies
+│       ├── mturk/                  # MTurk prompt selection results
+│       └── prompt_selection_dataset.csv
+│
+├── outputs/                        # Generated figures and visualizations
+│
+├── prompts/
+│   ├── prompt_tf-crl.txt                    # Main TF-CRL labeling prompt
+│   ├── prompt_character_identification.txt  # Character extraction prompt
+│   ├── prompt_hvv_classification.txt        # Hero/Villain/Victim classification prompt
+│   └── prompt_selection/                    # Prompts for the prompt selection experiments
+│       ├── concept_induction/
+│       └── char_summ/
+│
+└── README.md
 ```
 
 ## Getting Started
 
 ### 1) Anaconda
-```
-conda create -n <myenv_name> python=3.10
-conda activate <myenv_name>
-conda install -c conda-forge pip  # make sure pip is installed
+
+```bash
+conda create -n tf-crl python=3.10
+conda activate tf-crl
+conda install -c conda-forge pip
 python -m pip install -r requirements.txt
 ```
 
 ### 2) Virtual Environment
-```
-python -m venv <myenv_name>
-source <myenv_name>/bin/activate
+
+```bash
+python -m venv tf-crl
+source tf-crl/bin/activate
 python -m pip install -r requirements.txt
 ```
 
 ## Running the Code
 
-### Notebooks
+Notebook code in `Application.ipynb` runs as-is using the data in this repo. Note that because of licencing with the Media Frames Corpus, the Immigration, Climate, and SSM datasets are not provided in this repo. 
 
-The two notebooks include the automated comparison between human and GPT responses for the protagonist, antagonist, valence, and protagonist type questions, and the inter-annotator agreement from our MTurk survery.
+## Prompts
 
-Both notebooks can be run as-is and use the data existing in this repo.
+The `/prompts` directory contains the LLM prompt templates used in the paper:
 
-### Clustering
+| Prompt | Description |
+|---|---|
+| `prompt_tf-crl.txt` | Generates open-ended noun phrase role labels for each character |
+| `prompt_character_identification.txt` | Identifies the central characters in a news narrative |
+| `prompt_hvv_classification.txt` | Classifies each character as Hero, Villain, Victim, or Neither |
+| `prompt_selection/concept_induction/` | Two-step prompting: extract quotes, then summarize portrayals |
+| `prompt_selection/char_summ/` | Single-step character portrayal summarization |
 
-To run the moral clustering results, run the `moral_clustering.py` script as follows. (This recreates Figures 1-3 and the results from Tables 5, 6, 14-17, as well as the hyperparameter tuning).
+## Citation
 
-```
-python moral_clustering.py -col <column_name>
-```
-
-`column_name` can either be:
-- moral: for the full-sentence morals
-- moral+: positive morals
-- moral-: negative morals
-- text: full-text (with entity replacement already pre-applied)
-- orig_text: full-text with entity replacement not pre-applied
-
-See `python moral_clustering.py -h` for more options and explanations.
-
-<p align="center">
-    <img src="https://github.com/davidghobson1/llm-story-morals/blob/main/images/sample_moral_clustering.png?raw=true" alt="Results Image" width="400"/>
-</p>
-
-### Validation
-
-To run the automated comparison between human and GPT responses for the moral, moral+, moral-, and central topic questions, run the `automated_validation.py` as follows. (This reproduces Tables 3 and 11).
+If you use this work, please cite:
 
 ```
-python automated_validation.py -cate <category_name>
+@inproceedings{hobson2025evaluating,
+  title={Evaluating Taxonomy Free Character Role Labeling (TF-CRL) in News Stories using Large Language Models},
+  author={Hobson, David G and Ruths, Derek and Piper, Andrew},
+  booktitle={Proceedings of the 2025 Conference on Empirical Methods in Natural Language Processing},
+  pages={14828--14850},
+  year={2025}
+}
 ```
-
-`category_name` can either be:
-- moral: for the full-sentence morals
-- moral+: positive morals
-- moral-: negative morals
-- central_topic: topic
-
-Note that this script may take a while to run (~30 mins) if running on CPU because BERTScore can be quite slow.
-
-<!-- >📋  Optional: include a graphic explaining your approach/main result, bibtex entry, link to demos, blog posts and tutorials -->
-
-<!-- ## Requirements
-
-To install requirements:
-
-```setup
-pip install -r requirements.txt
-```
-
->📋  Describe how to set up the environment, e.g. pip/conda/docker commands, download datasets, etc...
-
-
-## Contributing
-
->📋  Pick a licence and describe how to contribute to your code repository. 
- --> -->
