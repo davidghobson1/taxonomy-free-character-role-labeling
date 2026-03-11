@@ -71,7 +71,7 @@ python -m pip install -r requirements.txt
 
 ## Running the Code
 
-Notebook code in `Application.ipynb` runs as-is using the data in this repo. Note that because of licencing with the Media Frames Corpus, the Immigration, Climate, and SSM datasets are not provided in this repo. 
+Notebook code in `Application.ipynb` runs as-is using the data in this repo. Note that because of licencing with the Media Frames Corpus, the Immigration, Climate, and SSM datasets are not provided in this repo, and therefore the `Label Clustering.ipynb` notebook will not produce identical results as in the paper. The `cluster_labels.csv` file however provides the labels from all the data used in our paper.
 
 ## Prompts
 
