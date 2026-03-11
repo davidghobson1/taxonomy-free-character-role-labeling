@@ -1,0 +1,153 @@
+{
+    "barack obama": [
+        "mr. obama",
+        "president obama",
+        "sen. barack obama",
+        "president barack obama",
+        "obama"
+    ],
+    "donald trump": [
+        "president donald trump",
+        "donald j. trump",
+        "president trump",
+        "mr. trump"
+    ],
+    "george w. bush": [
+        "president george w. bush",
+        "george bush",
+        "bush",
+        "president bush",
+        "president-elect bush"
+    ],
+    "congress": [
+        "u.s. congress"
+    ],
+    "senate": [
+        "the senate",
+        "u.s. senate"
+    ],
+    "united state": [
+        "the united state",
+        "united state of america"
+    ],
+    "russia": [
+        "russian federation"
+    ],
+    "russian military": [
+        "russian force",
+        "russian armed force"
+    ],
+    "russian soldier": [
+        "russian troop"
+    ],
+    "ukrainian military": [
+        "ukrainian force",
+        "ukrainian armed force",
+        "ukrainian army"
+    ],
+    "volodymyr zelensky": [
+        "volodymyr zelensky",
+        "president vladimir zelensky",
+        "volodymyr zelenskiy",
+        "ukrainian president volodymyr zelenskyy",
+        "president of ukraine",
+        "volodymyr zelenskyy",
+        "zelenskyy",
+        "vladimir zelensky",
+        "ukrainian president vladimir zelensky",
+        "president zelenskyy"
+    ],
+    "vladimir putin": [
+        "russian president vladimir putin",
+        "vladimir putin",
+        "putin",
+        "president vladimir putin"
+    ],
+    "joe biden": [
+        "president of the united states",
+        "joe biden",
+        "biden",
+        "u.s. president joe biden",
+        "president biden",
+        "president joe biden",
+        "joseph biden"
+    ],
+    "u.s. supreme court": [
+        "supreme court"
+    ],
+    "jeb bush": [
+        "florida gov. jeb bush"
+    ],
+    "obama administration": [
+        "the obama administration",
+        "democratic obama administration"
+    ],
+    "immigrant": [
+        "immigrant community",
+        "the immigrant",
+        "immigrant population",
+        "immigrant group"
+    ],
+    "immigrant advocate": [
+        "advocate for immigrants"
+    ],
+    "undocumented immigrant": [
+        "unauthorized immigrant"
+    ],
+    "kate steinle": [
+        "kathryn steinle"
+    ],
+    "world health organization": [
+        "who",
+        "world health organization (who)"
+    ],
+    "intergovernmental panel on climate change": [
+        "united nations climate change panel",
+        "united nations intergovernmental panel on climate change",
+        "united nations' intergovernmental panel on climate change"
+    ],
+    "scientist": [
+        "climate scientist"
+    ],
+    "same-sex couple": [
+        "gay couple",
+        "same-sex married couple",
+        "gay couple in arkansas",
+        "gay and lesbian couple",
+        "same-sex couple in iowa",
+        "same-sex couple in california",
+        "same-sex couple in virginia",
+        "same-sex couple in utah",
+        "six south florida same-sex couple"
+    ],
+    "gays and lesbian": [
+        "gay men and lesbian",
+        "gay american",
+        "gay",
+        "gay and lesbian american",
+        "gay community",
+        "gay person",
+        "gay and lesbian community"
+    ],
+    "gay advocate": [
+        "gay and lesbian advocates and defender"
+    ],
+    "gay rights group": [
+        "gay rights organization",
+        "gay-rights group"
+    ],
+    "gay rights advocate": [
+        "gay-marriage advocate",
+        "gay-rights advocate",
+        "gay rights supporter",
+        "gay and lesbian advocate",
+        "supporter of gay rights",
+        "gay & lesbian advocates & defender",
+        "gay marriage advocate",
+        "gay-rights supporter"
+    ],
+    "gay rights activist": [
+        "gay-rights activist",
+        "gay activist"
+    ]
+}
